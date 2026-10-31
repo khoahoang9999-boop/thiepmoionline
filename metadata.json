@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Thiết Kế Thiệp Mời Online 31/10/2026",
+  "description": "Nền tảng tạo thiệp mời trực tuyến tương tác cao cấp với 4 trang chuẩn UX/UI, đếm ngược, bản đồ Google Maps, lời mời trang trọng và xác nhận tham dự RSVP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <title>Thiệp Mời Cưới - Mạnh Hùng &amp; Thảo Linh</title>
+  <meta name="description" content="Trân trọng kính mời quý khách đến dự tiệc cưới thân mật của Mạnh Hùng & Thảo Linh" />
+
+  <!-- Google Fonts: Cormorant Garamond, Dancing Script, Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Dancing+Script:wght@600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            gold: {
+              50: '#FBF8F2',
+              100: '#F5EEDF',
+              200: '#EBDEC2',
+              300: '#DFC79C',
+              400: '#D4AF74',
+              500: '#C59A45', // Primary Gold
+              600: '#A87E31',
+              700: '#846123',
+              800: '#64471B',
+            },
+            pastel: {
+              cream: '#FAF7F2',
+              blush: '#FDF6F6',
+              rose: '#E8A5A5',
+              surface: '#FFFFFF',
+              dark: '#1E1B18'
+            }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            script: ['"Dancing Script"', 'cursive'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- AOS (Animate On Scroll) CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Canvas Confetti CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+  <style>
+    /* Delicate Paper Texture and Bokeh Animation */
+    body {
+      background-color: #FAF7F2;
+      color: #24201D;
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    }
+
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.7; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.05); }
+    }
+    .animate-pulse-glow {
+      animation: pulseGlow 3.5s ease-in-out infinite;
+    }
+
+    @keyframes floatPetal {
+      0% { transform: translateY(-10px) rotate(0deg); opacity: 0; }
+      15% { opacity: 0.8; }
+      85% { opacity: 0.8; }
+      100% { transform: translateY(105vh) rotate(360deg); opacity: 0; }
+    }
+    .petal {
+      position: fixed;
+      pointer-events: none;
+      z-index: 40;
+      animation: floatPetal linear infinite;
+    }
+  </style>
+</head>
+<body class="bg-pastel-cream text-stone-800 antialiased selection:bg-gold-100 selection:text-gold-800">
+
+  <!-- Floating Falling Petals Container -->
+  <div id="petals-container" aria-hidden="true"></div>
+
+  <!-- Music Floating Toggle Button -->
+  <button id="musicToggle" aria-label="Bật/Tắt nhạc nền" class="fixed bottom-6 right-6 z-50 p-3.5 rounded-full bg-white/95 text-gold-700 shadow-xl border border-gold-200/80 hover:scale-105 active:scale-95 transition-all">
+    <svg id="musicIconPlay" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+    </svg>
+    <svg id="musicIconMute" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2" />
+    </svg>
+  </button>
+
+  <!-- Mobile Viewport Wrapper (390px - 480px Centered) -->
+  <main class="w-full max-w-xl mx-auto min-h-screen bg-white/80 shadow-2xl border-x border-stone-200/60 relative overflow-hidden">
+
+    <!-- ==================== SECTION 1: BÌA & HERO ==================== -->
+    <header class="relative min-h-[92vh] flex flex-col items-center justify-center p-6 text-center overflow-hidden">
+      
+      <!-- Subtle Gold Bokeh Background Layer -->
+      <div class="absolute inset-0 pointer-events-none opacity-40">
+        <div class="absolute top-10 left-10 w-44 h-44 rounded-full bg-amber-200/40 blur-3xl"></div>
+        <div class="absolute bottom-16 right-10 w-52 h-52 rounded-full bg-rose-200/30 blur-3xl"></div>
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 rounded-full bg-amber-100/50 blur-2xl"></div>
+      </div>
+
+      <!-- Luxury Double Gold Border Frame -->
+      <div class="absolute inset-4 rounded-3xl border border-gold-300/60 pointer-events-none"></div>
+      <div class="absolute inset-5 rounded-3xl border border-gold-200/40 border-dashed pointer-events-none"></div>
+
+      <!-- Top Monogram Seal -->
+      <div class="relative z-10 mb-4" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="w-16 h-16 mx-auto rounded-full bg-white border border-gold-400 flex items-center justify-center shadow-sm">
+          <span class="font-serif text-2xl font-bold text-gold-600">H &amp; L</span>
+        </div>
+        <span class="block text-xs uppercase tracking-[0.28em] text-stone-500 font-medium mt-3">
+          Lễ Thành Hôn
+        </span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="relative z-10 text-3xl sm:text-4xl font-serif font-semibold text-stone-900 tracking-tight" data-aos="fade-up" data-aos-delay="150">
+        Mạnh Hùng &amp; Thảo Linh
+      </h1>
+
+      <p class="relative z-10 font-script text-2xl sm:text-3xl text-gold-600 mt-2" data-aos="fade-up" data-aos-delay="250">
+        Save Our Date
+      </p>
+
+      <!-- Wedding Date & Time -->
+      <div class="relative z-10 my-4 py-2" data-aos="fade-up" data-aos-delay="350">
+        <div class="text-sm font-semibold tracking-wider text-stone-800">
+          18:00 · Thứ Sáu
+        </div>
+        <div class="text-xl sm:text-2xl font-serif font-bold text-stone-900 tracking-wide mt-0.5">
+          25 Tháng 12 Năm 2026
+        </div>
+        <div class="text-xs text-stone-500 italic mt-0.5">
+          (Tức ngày 17 tháng 11 năm Bính Ngọ)
+        </div>
+      </div>
+
+      <!-- Live Countdown Timer -->
+      <div class="relative z-10 w-full max-w-sm my-3" data-aos="fade-up" data-aos-delay="450">
+        <div class="grid grid-cols-4 gap-2.5">
+          <div class="bg-white/90 p-2.5 rounded-xl border border-gold-200 shadow-xs flex flex-col items-center">
+            <span id="days" class="text-2xl font-serif font-bold text-gold-700 leading-none">00</span>
+            <span class="text-[10px] uppercase tracking-wider text-stone-500 mt-1">Ngày</span>
+          </div>
+          <div class="bg-white/90 p-2.5 rounded-xl border border-gold-200 shadow-xs flex flex-col items-center">
+            <span id="hours" class="text-2xl font-serif font-bold text-gold-700 leading-none">00</span>
+            <span class="text-[10px] uppercase tracking-wider text-stone-500 mt-1">Giờ</span>
+          </div>
+          <div class="bg-white/90 p-2.5 rounded-xl border border-gold-200 shadow-xs flex flex-col items-center">
+            <span id="minutes" class="text-2xl font-serif font-bold text-gold-700 leading-none">00</span>
+            <span class="text-[10px] uppercase tracking-wider text-stone-500 mt-1">Phút</span>
+          </div>
+          <div class="bg-white/90 p-2.5 rounded-xl border border-gold-200 shadow-xs flex flex-col items-center">
+            <span id="seconds" class="text-2xl font-serif font-bold text-gold-700 leading-none">00</span>
+            <span class="text-[10px] uppercase tracking-wider text-stone-500 mt-1">Giây</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Action: Scroll to explore -->
+      <a href="#story" class="relative z-10 mt-6 text-xs uppercase tracking-widest text-stone-400 hover:text-stone-700 transition-colors flex flex-col items-center gap-1" data-aos="fade-up" data-aos-delay="550">
+        <span>Khám phá thiệp mời</span>
+        <svg class="w-4 h-4 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+        </svg>
+      </a>
+    </header>
+
+    <!-- Hairline Divider -->
+    <div class="w-3/4 mx-auto h-px bg-gradient-to-r from-transparent via-gold-300 to-transparent"></div>
+
+    <!-- ==================== SECTION 2: CÂU CHUYỆN & LỊCH TRÌNH ==================== -->
+    <section id="story" class="py-16 px-6">
+      
+      <!-- Section Title -->
+      <div class="text-center mb-10" data-aos="fade-up">
+        <span class="text-xs uppercase tracking-[0.25em] text-gold-600 font-semibold">Chương Tình Yêu</span>
+        <h2 class="text-3xl font-serif font-bold text-stone-900 mt-1">Lời Ngỏ Tri Ân</h2>
+        <div class="w-10 h-0.5 bg-gold-400 mx-auto mt-3"></div>
+      </div>
+
+      <!-- Heartfelt Narrative -->
+      <div class="bg-stone-50/90 rounded-2xl p-6 border border-stone-200/80 shadow-xs leading-relaxed text-stone-700 text-sm mb-12" data-aos="fade-up" data-aos-delay="100">
+        <p class="first-letter:text-4xl first-letter:font-serif first-letter:font-bold first-letter:float-left first-letter:mr-2.5 first-letter:text-gold-700">
+          Tình yêu không chỉ là nhìn nhau, mà là cùng nhau nhìn về một hướng. Sau những năm tháng cùng nhau sẻ chia buồn vui và trưởng thành, chúng tôi hạnh phúc được nắm chặt tay nhau bước vào chương mới của cuộc đời.
+        </p>
+        <blockquote class="mt-4 pt-4 border-t border-stone-200/70 italic text-stone-600 text-center font-serif text-base">
+          "Hạnh phúc là khi tìm thấy một người để cùng già đi."
+        </blockquote>
+      </div>
+
+      <!-- Detailed Program Timeline -->
+      <div class="mb-12" data-aos="fade-up">
+        <h3 class="text-center text-2xl font-serif font-bold text-stone-900 mb-8">
+          Lịch Trình Tiệc Cưới
+        </h3>
+
+        <div class="relative border-l-2 border-gold-300/80 ml-4 sm:ml-8 space-y-6">
+          
+          <!-- Event 1 -->
+          <div class="relative pl-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="absolute -left-2.5 top-1 w-5 h-5 rounded-full bg-white border-2 border-gold-500 shadow-xs"></div>
+            <span class="text-xs font-bold text-gold-700 uppercase tracking-wider">17:30</span>
+            <h4 class="text-base font-serif font-bold text-stone-900">Đón Khách &amp; Welcome Drinks</h4>
+            <p class="text-xs text-stone-600 mt-0.5">Check-in, chụp hình kỷ niệm và thưởng thức tiệc trà khai vị.</p>
+          </div>
+
+          <!-- Event 2 -->
+          <div class="relative pl-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="absolute -left-2.5 top-1 w-5 h-5 rounded-full bg-white border-2 border-gold-500 shadow-xs"></div>
+            <span class="text-xs font-bold text-gold-700 uppercase tracking-wider">18:30</span>
+            <h4 class="text-base font-serif font-bold text-stone-900">Nghi Thức Lễ Thành Hôn</h4>
+            <p class="text-xs text-stone-600 mt-0.5">Lễ trao nhẫn thiêng liêng, lời nguyện ước và nghi thức rót rượu mừng.</p>
+          </div>
+
+          <!-- Event 3 -->
+          <div class="relative pl-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="absolute -left-2.5 top-1 w-5 h-5 rounded-full bg-white border-2 border-gold-500 shadow-xs"></div>
+            <span class="text-xs font-bold text-gold-700 uppercase tracking-wider">19:00</span>
+            <h4 class="text-base font-serif font-bold text-stone-900">Khai Tiệc Ẩm Thực</h4>
+            <p class="text-xs text-stone-600 mt-0.5">Thưởng thức thực đơn tiệc cưới cao cấp cùng hòa tấu acoustic.</p>
+          </div>
+
+          <!-- Event 4 -->
+          <div class="relative pl-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="absolute -left-2.5 top-1 w-5 h-5 rounded-full bg-white border-2 border-gold-500 shadow-xs"></div>
+            <span class="text-xs font-bold text-gold-700 uppercase tracking-wider">20:30</span>
+            <h4 class="text-base font-serif font-bold text-stone-900">Tung Hoa Cưới &amp; Khiêu Vũ</h4>
+            <p class="text-xs text-stone-600 mt-0.5">Giao lưu âm nhạc, minigame may mắn và lưu giữ khoảnh khắc ngọt ngào.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Dress Code -->
+      <div class="p-5 rounded-2xl bg-white border border-gold-200/80 shadow-xs text-center" data-aos="fade-up">
+        <span class="text-xs font-bold uppercase tracking-wider text-gold-700">Dress Code Gợi Ý</span>
+        <p class="text-xs text-stone-600 mt-1 mb-4">Trang phục trang nhã, khuyến khích các tông màu:</p>
+        <div class="flex justify-center items-center gap-4">
+          <div class="flex flex-col items-center gap-1">
+            <div class="w-8 h-8 rounded-full bg-[#D4AF37] border border-stone-300 shadow-inner"></div>
+            <span class="text-[10px] text-stone-600">Gold</span>
+          </div>
+          <div class="flex flex-col items-center gap-1">
+            <div class="w-8 h-8 rounded-full bg-[#FAF0E6] border border-stone-300 shadow-inner"></div>
+            <span class="text-[10px] text-stone-600">Cream</span>
+          </div>
+          <div class="flex flex-col items-center gap-1">
+            <div class="w-8 h-8 rounded-full bg-[#D8C7B5] border border-stone-300 shadow-inner"></div>
+            <span class="text-[10px] text-stone-600">Beige</span>
+          </div>
+          <div class="flex flex-col items-center gap-1">
+            <div class="w-8 h-8 rounded-full bg-[#C49A99] border border-stone-300 shadow-inner"></div>
+            <span class="text-[10px] text-stone-600">Rose</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Hairline Divider -->
+    <div class="w-3/4 mx-auto h-px bg-gradient-to-r from-transparent via-gold-300 to-transparent"></div>
+
+    <!-- ==================== SECTION 3: ĐỊA ĐIỂM & BẢN ĐỒ ==================== -->
+    <section id="venue" class="py-16 px-6">
+      
+      <div class="text-center mb-8" data-aos="fade-up">
+        <span class="text-xs uppercase tracking-[0.25em] text-gold-600 font-semibold">Địa Điểm Tổ Chức</span>
+        <h2 class="text-3xl font-serif font-bold text-stone-900 mt-1">Không Gian Tiếp Đón</h2>
+        <div class="w-10 h-0.5 bg-gold-400 mx-auto mt-3"></div>
+      </div>
+
+      <div class="bg-white rounded-2xl border border-gold-200/90 shadow-sm overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+        
+        <!-- Venue Header -->
+        <div class="p-6 text-center">
+          <h3 class="text-2xl font-serif font-bold text-stone-900">
+            Trung Tâm Hội Nghị GEM Center
+          </h3>
+          <p class="text-sm font-semibold text-gold-700 mt-1">
+            Grand Ballroom · Sảnh Castor (Lầu 5)
+          </p>
+          <p class="text-xs text-stone-600 mt-2 leading-relaxed">
+            Số 8 Nguyễn Bỉnh Khiêm, Phường Đa Kao, Quận 1, TP. Hồ Chí Minh
+          </p>
+
+          <!-- Action Buttons: Google Maps & Copy Address -->
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-3 mt-6">
+            
+            <!-- Nút 1: Mở Google Maps chỉ đường -->
+            <a 
+              href="https://maps.google.com/?q=GEM+Center+8+Nguyen+Binh+Khiem+Quan+1+Ho+Chi+Minh" 
+              target="_blank" 
+              rel="noreferrer"
+              class="w-full sm:w-auto px-6 py-3 rounded-full bg-gold-600 hover:bg-gold-700 text-white text-xs font-semibold shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 active:scale-95"
+            >
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              <span>Mở Google Maps Chỉ Đường</span>
+            </a>
+
+            <!-- Nút 2: Sao chép địa chỉ -->
+            <button 
+              onclick="copyAddress()" 
+              id="btnCopyAddress"
+              class="w-full sm:w-auto px-5 py-3 rounded-full bg-stone-100 hover:bg-stone-200 text-stone-700 text-xs font-semibold transition-all border border-stone-300 flex items-center justify-center gap-2"
+            >
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+              </svg>
+              <span id="copyText">Sao Chép Địa Chỉ</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Embedded Google Maps <iframe> -->
+        <div class="w-full h-64 sm:h-80 border-t border-stone-200 relative bg-stone-100">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2965646399996!2d106.69830847586887!3d10.788582989360812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f4ae1b99737%3A0xc3f25c798083a31c!2sGEM%20Center!5e0!3m2!1svi!2s!4v1710000000000!5m2!1svi!2s" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Bản đồ chỉ đường đến GEM Center"
+          ></iframe>
+        </div>
+
+        <!-- Parking Tips -->
+        <div class="p-4 bg-stone-50 text-[11px] text-stone-500 border-t border-stone-200 flex items-center gap-2">
+          <span>🚗</span>
+          <span>Bãi gửi xe ô tô & xe máy tại tầng hầm tòa nhà. Lễ tân sẵn sàng hướng dẫn quý khách lên sảnh.</span>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Hairline Divider -->
+    <div class="w-3/4 mx-auto h-px bg-gradient-to-r from-transparent via-gold-300 to-transparent"></div>
+
+    <!-- ==================== SECTION 4: XÁC NHẬN THAM DỰ (RSVP) ==================== -->
+    <section id="rsvp" class="py-16 px-6 text-center">
+      
+      <div class="mb-8" data-aos="fade-up">
+        <span class="text-xs uppercase tracking-[0.25em] text-gold-600 font-semibold">Phản Hồi Sớm</span>
+        <h2 class="text-3xl font-serif font-bold text-stone-900 mt-1">Xác Nhận Tham Dự</h2>
+        <div class="w-10 h-0.5 bg-gold-400 mx-auto mt-3"></div>
+        <p class="text-xs text-stone-500 mt-3 max-w-sm mx-auto leading-relaxed">
+          Sự hiện diện của quý vị là niềm vinh hạnh to lớn. Xin vui lòng phản hồi trước ngày <strong>15/12/2026</strong> để chúng tôi chuẩn bị đón tiếp chu đáo nhất.
+        </p>
+      </div>
+
+      <!-- RSVP Card -->
+      <div class="bg-gradient-to-b from-stone-50 to-white rounded-3xl p-6 sm:p-8 border border-gold-200 shadow-md max-w-md mx-auto" data-aos="zoom-in" data-aos-delay="100">
+        
+        <div class="w-14 h-14 mx-auto rounded-full bg-gold-50 text-gold-600 flex items-center justify-center mb-4">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+          </svg>
+        </div>
+
+        <h3 class="text-xl font-serif font-bold text-stone-900 mb-2">
+          Phiếu Phản Hồi Trực Tuyến
+        </h3>
+
+        <p class="text-xs text-stone-600 mb-6 leading-relaxed">
+          Bấm vào nút bên dưới để chuyển sang biểu mẫu Google Form xác nhận số lượng khách và gửi gắm lời chúc yêu thương đến cô dâu chú rể.
+        </p>
+
+        <!-- Nút: Xác Nhận Tham Dự (Chuyển Hướng Google Form) -->
+        <a 
+          href="https://forms.google.com" 
+          target="_blank" 
+          rel="noreferrer"
+          onclick="triggerConfetti()"
+          class="w-full block py-4 px-6 rounded-full bg-gold-600 hover:bg-gold-700 text-white font-semibold text-sm shadow-lg hover:shadow-xl hover:scale-[1.02] active:scale-[0.98] transition-all flex items-center justify-center gap-2"
+        >
+          <span>💌 Xác Nhận Tham Dự (Qua Google Form)</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+          </svg>
+        </a>
+
+        <!-- Secondary hotline note -->
+        <div class="mt-6 pt-4 border-t border-stone-200/80 text-[11px] text-stone-500">
+          Hoặc liên hệ trực tiếp: <strong>0909 123 456</strong> (Hùng) · <strong>0908 654 321</strong> (Linh)
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 px-6 text-center text-xs text-stone-400 border-t border-stone-200/60 bg-white">
+      <p class="font-serif italic text-sm text-stone-500">Mạnh Hùng &amp; Thảo Linh · 25.12.2026</p>
+      <p class="mt-1 text-[11px]">Cảm ơn quý vị đã luôn là một phần ý nghĩa trong ngày trọng đại của chúng tôi.</p>
+    </footer>
+
+  </main>
+
+  <!-- ==================== JAVASCRIPT THUẦN ==================== -->
+  <!-- AOS Animation Script -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script>
+    // 1. Khởi tạo hiệu ứng cuộn trang AOS
+    AOS.init({
+      duration: 850,
+      once: true,
+      offset: 50,
+      easing: 'ease-out-cubic'
+    });
+
+    // 2. Logic Đếm Ngược (Countdown Timer) đến 18:00, 25/12/2026
+    const targetEventDate = new Date('2026-12-25T18:00:00').getTime();
+
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const distance = targetEventDate - now;
+
+      if (distance < 0) {
+        document.getElementById('days').innerText = '00';
+        document.getElementById('hours').innerText = '00';
+        document.getElementById('minutes').innerText = '00';
+        document.getElementById('seconds').innerText = '00';
+        return;
+      }
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById('days').innerText = String(days).padStart(2, '0');
+      document.getElementById('hours').innerText = String(hours).padStart(2, '0');
+      document.getElementById('minutes').innerText = String(minutes).padStart(2, '0');
+      document.getElementById('seconds').innerText = String(seconds).padStart(2, '0');
+    }
+
+    // Chạy ngay lập tức và định kỳ mỗi 1 giây
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+
+    // 3. Sao chép địa chỉ nhà hàng & hiển thị thông báo
+    function copyAddress() {
+      const addressText = "Số 8 Nguyễn Bỉnh Khiêm, Phường Đa Kao, Quận 1, TP. Hồ Chí Minh";
+      navigator.clipboard.writeText(addressText).then(() => {
+        const copyBtnText = document.getElementById('copyText');
+        const originalText = copyBtnText.innerText;
+        copyBtnText.innerText = "✓ Đã sao chép!";
+        copyBtnText.classList.add("text-emerald-600");
+        setTimeout(() => {
+          copyBtnText.innerText = originalText;
+          copyBtnText.classList.remove("text-emerald-600");
+        }, 2200);
+      });
+    }
+
+    // 4. Bắn pháo hoa Confetti khi nhấn xác nhận tham dự
+    function triggerConfetti() {
+      if (typeof confetti === 'function') {
+        confetti({
+          particleCount: 100,
+          spread: 70,
+          origin: { y: 0.6 }
+        });
+      }
+    }
+
+    // 5. Trình phát nhạc nền Acoustic Harpsichord qua Web Audio API (Chạy độc lập, không cần file mp3 ngoài)
+    class AcousticSynth {
+      constructor() {
+        this.ctx = null;
+        this.isPlaying = false;
+        this.timer = null;
+        this.chords = [
+          [130.81, 196.00, 246.94, 329.63, 392.00], // C maj9
+          [110.00, 164.81, 220.00, 261.63, 329.63], // Am9
+          [174.61, 220.00, 261.63, 329.63, 392.00], // F maj7
+          [196.00, 246.94, 293.66, 392.00, 440.00]  // G6
+        ];
+      }
+      init() {
+        if (!this.ctx) {
+          const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+          this.ctx = new AudioContextClass();
+        }
+        if (this.ctx.state === 'suspended') {
+          this.ctx.resume();
+        }
+      }
+      play() {
+        this.init();
+        this.isPlaying = true;
+        let cIdx = 0;
+        let noteStep = 0;
+
+        const pluck = () => {
+          if (!this.isPlaying || !this.ctx) return;
+          const chord = this.chords[cIdx];
+          const freq = chord[noteStep % chord.length];
+          const now = this.ctx.currentTime;
+
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(freq, now);
+
+          gain.gain.setValueAtTime(0.001, now);
+          gain.gain.linearRampToValueAtTime(0.18, now + 0.04);
+          gain.gain.exponentialRampToValueAtTime(0.0001, now + 1.8);
+
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+
+          osc.start(now);
+          osc.stop(now + 1.85);
+
+          noteStep++;
+          if (noteStep >= chord.length) {
+            noteStep = 0;
+            cIdx = (cIdx + 1) % this.chords.length;
+          }
+        };
+
+        pluck();
+        this.timer = setInterval(pluck, 700);
+      }
+      stop() {
+        this.isPlaying = false;
+        if (this.timer) {
+          clearInterval(this.timer);
+          this.timer = null;
+        }
+      }
+      toggle() {
+        if (this.isPlaying) {
+          this.stop();
+          return false;
+        } else {
+          this.play();
+          return true;
+        }
+      }
+    }
+
+    const synth = new AcousticSynth();
+    const musicBtn = document.getElementById('musicToggle');
+    const iconPlay = document.getElementById('musicIconPlay');
+    const iconMute = document.getElementById('musicIconMute');
+
+    musicBtn.addEventListener('click', () => {
+      const isNowPlaying = synth.toggle();
+      if (isNowPlaying) {
+        iconPlay.classList.remove('hidden');
+        iconMute.classList.add('hidden');
+        musicBtn.classList.add('ring-2', 'ring-gold-400');
+      } else {
+        iconPlay.classList.add('hidden');
+        iconMute.classList.remove('hidden');
+        musicBtn.classList.remove('ring-2', 'ring-gold-400');
+      }
+    });
+
+    // 6. Hiệu ứng cánh hoa rơi nhẹ nhàng
+    const petalContainer = document.getElementById('petals-container');
+    const petalColors = ['#FAD2E1', '#FDE2E4', '#FFF1E6', '#DFD7BF'];
+
+    for (let i = 0; i < 15; i++) {
+      const petal = document.createElement('div');
+      petal.className = 'petal';
+      const size = 10 + Math.random() * 12;
+      const left = Math.random() * 100;
+      const duration = 7 + Math.random() * 6;
+      const delay = Math.random() * 5;
+      const color = petalColors[Math.floor(Math.random() * petalColors.length)];
+
+      petal.style.width = `${size}px`;
+      petal.style.height = `${size * 1.3}px`;
+      petal.style.left = `${left}%`;
+      petal.style.top = `-20px`;
+      petal.style.backgroundColor = color;
+      petal.style.borderRadius = '50% 0 50% 50%';
+      petal.style.animationDuration = `${duration}s`;
+      petal.style.animationDelay = `${delay}s`;
+      petal.style.opacity = '0.7';
+
+      petalContainer.appendChild(petal);
+    }
+  </script>
+</body>
+</html>

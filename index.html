@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      (function () {
+        try {
+          var currentFetch = window.fetch;
+          var origDefineProperty = Object.defineProperty;
+          Object.defineProperty = function (obj, prop, descriptor) {
+            if (
+              (obj === window || obj === globalThis) &&
+              prop === 'fetch' &&
+              descriptor &&
+              descriptor.get &&
+              !descriptor.set
+            ) {
+              var getter = descriptor.get;
+              var customFetch = null;
+              return origDefineProperty.call(this, obj, prop, {
+                configurable: true,
+                enumerable: descriptor.enumerable !== false,
+                get: function () {
+                  return customFetch || getter.call(this);
+                },
+                set: function (val) {
+                  if (typeof val === 'function') {
+                    customFetch = val;
+                  }
+                }
+              });
+            }
+            return origDefineProperty.call(this, obj, prop, descriptor);
+          };
+
+          var desc = Object.getOwnPropertyDescriptor(window, 'fetch');
+          if (!desc || (desc.configurable !== false && !desc.writable && !desc.set)) {
+            var baseGetter =
+              desc && desc.get
+                ? desc.get
+                : function () {
+                    return currentFetch;
+                  };
+            var assignedFetch = null;
+            origDefineProperty.call(Object, window, 'fetch', {
+              configurable: true,
+              enumerable: true,
+              get: function () {
+                return assignedFetch || baseGetter.call(window);
+              },
+              set: function (fn) {
+                if (typeof fn === 'function') {
+                  assignedFetch = fn;
+                }
+              }
+            });
+          }
+        } catch (e) {}
+
+        window.addEventListener(
+          'error',
+          function (e) {
+            if (
+              (e && e.filename && e.filename.indexOf('chrome-extension://') === 0) ||
+              (e && e.message && e.message.indexOf('Cannot set property fetch') !== -1)
+            ) {
+              e.stopImmediatePropagation();
+              e.preventDefault();
+              return false;
+            }
+          },
+          true
+        );
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Thiệp Mời Tiệc Báo Hỷ - Quang Hưng & Minh Tuệ</title>
+    <meta name="description" content="Kính mời quý khách tới dự tiệc báo hỷ của Quang Hưng & Minh Tuệ vào lúc 16:00 ngày 29/11/2026 tại Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa" />
+    <meta property="og:title" content="Thiệp Mời Tiệc Báo Hỷ - Quang Hưng & Minh Tuệ" />
+    <meta property="og:description" content="Kính mời quý khách tới dự tiệc báo hỷ của Quang Hưng & Minh Tuệ vào lúc 16:00 ngày 29/11/2026 tại Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/api/media/media_48034d471b1e1c49.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Thiệp Mời Tiệc Báo Hỷ - Quang Hưng & Minh Tuệ" />
+    <meta name="twitter:description" content="Kính mời quý khách tới dự tiệc báo hỷ của Quang Hưng & Minh Tuệ vào lúc 16:00 ngày 29/11/2026 tại Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa" />
+    <meta name="twitter:image" content="/api/media/media_48034d471b1e1c49.jpg" />
+    <!-- Google Fonts with Flawless Vietnamese Support: Lora, Be Vietnam Pro, Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Dancing+Script:wght@500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-stone-50 text-stone-900 antialiased selection:bg-amber-100 selection:text-amber-900">
+    <audio id="wedding-bg-audio" preload="auto" playsinline webkit-playsinline loop style="position:fixed;bottom:0;right:0;width:1px;height:1px;opacity:0;pointer-events:none;"></audio>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

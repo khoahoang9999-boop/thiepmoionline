@@ -1,0 +1,2821 @@
+{
+  "defaultData": {
+    "themeTemplate": "imperial-dragon",
+    "guests": [
+      {
+        "id": "g_1",
+        "name": "Lan",
+        "salutation": "Cô",
+        "side": "bride",
+        "phone": "0912345678"
+      },
+      {
+        "id": "g_2",
+        "name": "Hùng",
+        "salutation": "Chú",
+        "side": "bride",
+        "phone": "0987654321"
+      },
+      {
+        "id": "g_3",
+        "name": "Thành",
+        "salutation": "Anh",
+        "side": "bride"
+      },
+      {
+        "id": "g_4",
+        "name": "Gia đình Bác Tám",
+        "salutation": "Bác",
+        "side": "bride"
+      },
+      {
+        "id": "g_5",
+        "name": "Tuấn",
+        "salutation": "Bạn",
+        "side": "groom",
+        "phone": "0901234567"
+      },
+      {
+        "id": "g_6",
+        "name": "Minh",
+        "salutation": "Anh",
+        "side": "groom"
+      },
+      {
+        "id": "g_7",
+        "name": "Phương",
+        "salutation": "Chị",
+        "side": "groom"
+      }
+    ],
+    "introText": "THÔNG TIN LỄ VỀ CHUNG MỘT NHÀ",
+    "groomName": "Phùng Văn Hưng",
+    "groomShortName": "Quang Hưng",
+    "groomRole": "Trưởng Nam",
+    "groomAvatarUrl": "/api/media/media_385d6b17539c87cc.jpg",
+    "brideName": "Hoàng Minh Tuệ",
+    "brideShortName": "Minh Tuệ",
+    "brideRole": "Út Nữ",
+    "brideAvatarUrl": "/api/media/media_debf66392f8c9341.jpg",
+    "displayOrder": "groom-first",
+    "showHeroPhoto": true,
+    "heroPhotoUrl": "/api/media/media_cca42efe1813d7a6.jpg",
+    "showGallery": true,
+    "galleryType": "3d",
+    "galleryPhotos": [
+      "/api/media/media_48034d471b1e1c49.jpg",
+      "/api/media/media_cca42efe1813d7a6.jpg"
+    ],
+    "showFamily": true,
+    "groomFamily": {
+      "title": "Ông",
+      "fatherName": "Phùng Văn Vượng",
+      "motherName": "",
+      "address": "Số nhà 10, Đường số 4, thôn Đằng Xã, xã Hoằng Hóa, tỉnh Thanh Hóa",
+      "phone": "0988 123 456"
+    },
+    "brideFamily": {
+      "title": "Ông Bà",
+      "fatherName": "Hoàng Hiếu Luân",
+      "motherName": "Nguyễn Thị Phánh",
+      "address": "Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+      "phone": "0912 345 678"
+    },
+    "showAnnouncement": true,
+    "announcementText": "TRÂN TRỌNG BÁO TIN DỰ LỄ VỀ CHUNG MỘT NHÀ CỦA CON CHÚNG TÔI",
+    "ceremony": {
+      "enabled": true,
+      "title": "THÔNG TIN LỄ VỀ CHUNG MỘT NHÀ",
+      "ceremonyType": "thanh-hon",
+      "time": "09:00",
+      "date": "2026-11-29",
+      "address": "Tư gia Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang"
+    },
+    "ceremonyGroom": {
+      "enabled": true,
+      "title": "THÔNG TIN LỄ THÀNH HÔN",
+      "ceremonyType": "thanh-hon",
+      "time": "11:00",
+      "date": "2026-11-29",
+      "address": "Số nhà 10, Đường số 4, thôn Đằng Xã, xã Hoằng Hóa, tỉnh Thanh Hóa"
+    },
+    "ceremonyBride": {
+      "enabled": true,
+      "title": "THÔNG TIN LỄ VU QUY",
+      "ceremonyType": "vu-quy",
+      "time": "09:00",
+      "date": "2026-11-22",
+      "address": "Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang"
+    },
+    "partyGroom": {
+      "enabled": true,
+      "partyType": "reception",
+      "title": "THÔNG TIN TIỆC VỀ CHUNG NHÀ",
+      "date": "2026-11-29",
+      "time": "16:00",
+      "timeFormat": "24h",
+      "showWelcomeDiningTimes": true,
+      "welcomeTime": "16:00",
+      "diningTime": "16:30",
+      "showCountdown": true,
+      "venueHeader": "TIỆC SẼ TỔ CHỨC TẠI NHÀ ÔNG BÀ PHÙNG VĂN VƯỢNG",
+      "venueName": "Tư Gia Nhà Trai - Gia Đình Ông Bà Phùng Văn Vượng",
+      "venueAddress": "Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa",
+      "mapEmbedUrl": "https://maps.google.com/maps?q=19.85950,105.85420&hl=vi&z=15&output=embed",
+      "mapCoordinates": {
+        "lat": 19.8595,
+        "lng": 105.8542
+      },
+      "showMap": true
+    },
+    "partyBride": {
+      "enabled": true,
+      "partyType": "reception",
+      "title": "THÔNG TIN TIỆC VỀ CHUNG NHÀ",
+      "date": "2026-11-22",
+      "time": "10:00",
+      "timeFormat": "24h",
+      "showWelcomeDiningTimes": true,
+      "welcomeTime": "10:00",
+      "diningTime": "10:30",
+      "showCountdown": true,
+      "venueHeader": "TIỆC SẼ TỔ CHỨC TẠI NHÀ ÔNG BÀ HOÀNG HIẾU LUÂN",
+      "venueName": "Tư Gia Nhà Gái - Gia Đình Ông Bà Hoàng Hiếu Luân",
+      "venueAddress": "Số nhà 21 Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+      "mapEmbedUrl": "https://maps.google.com/maps?q=22.10026,105.0259&hl=vi&z=15&output=embed",
+      "mapCoordinates": {
+        "lat": 22.10026,
+        "lng": 105.0259
+      },
+      "showMap": true
+    },
+    "shareGroom": {
+      "coverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+      "coverPosition": {
+        "x": 48.3,
+        "y": 67.3,
+        "zoom": 212,
+        "fit": "contain",
+        "flipX": false,
+        "flipY": false,
+        "rotate": 0
+      },
+      "title": "Thiệp Mời Tiệc Báo Hỷ - Quang Hưng & Minh Tuệ",
+      "description": "Kính mời quý khách tới dự tiệc báo hỷ của Quang Hưng & Minh Tuệ vào lúc 16:00 ngày 29/11/2026 tại Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa",
+      "dateText": "29/11/2026"
+    },
+    "shareBride": {
+      "coverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+      "coverPosition": {
+        "x": 49.7,
+        "y": 68.3,
+        "zoom": 210,
+        "fit": "contain",
+        "flipX": false,
+        "flipY": false,
+        "rotate": 0
+      },
+      "title": "Thiệp Mời Tiệc Báo Hỷ - Minh Tuệ & Quang Hưng",
+      "description": "Kính mời quý khách tới dự tiệc báo hỷ của Minh Tuệ & Quang Hưng vào lúc 10:00 ngày 22/11/2026 tại Số nhà 21 Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+      "dateText": "22/11/2026"
+    },
+    "shareCoverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+    "shareTitle": "Quang Hưng & Minh Tuệ",
+    "shareDescription": "Thân mời quý khách đến dự tiệc báo hỷ của Quang Hưng & Minh Tuệ",
+    "shareDateText": "29/11/2026",
+    "groomAvatarPosition": {
+      "x": 48.9,
+      "y": 47.1,
+      "zoom": 106,
+      "fit": "contain",
+      "flipX": false,
+      "flipY": false,
+      "rotate": -1
+    },
+    "brideAvatarPosition": {
+      "x": 50,
+      "y": 46.8,
+      "zoom": 106,
+      "fit": "contain",
+      "flipX": false,
+      "flipY": false,
+      "rotate": 12
+    },
+    "groomAvatarPositionGroom": {
+      "x": 48.9,
+      "y": 47.1,
+      "zoom": 106,
+      "fit": "contain",
+      "flipX": false,
+      "flipY": false,
+      "rotate": -1
+    },
+    "brideAvatarPositionGroom": {
+      "x": 50,
+      "y": 46.8,
+      "zoom": 106,
+      "fit": "contain",
+      "flipX": false,
+      "flipY": false,
+      "rotate": 12
+    },
+    "groomAvatarPositionBride": {
+      "x": 48.9,
+      "y": 47.1,
+      "zoom": 106,
+      "fit": "contain",
+      "flipX": false,
+      "flipY": false,
+      "rotate": -1
+    },
+    "brideAvatarPositionBride": {
+      "x": 50,
+      "y": 46.8,
+      "zoom": 106,
+      "fit": "contain",
+      "flipX": false,
+      "flipY": false,
+      "rotate": 12
+    },
+    "heroPhotoPosition": {
+      "x": 50,
+      "y": 50,
+      "zoom": 100,
+      "fit": "contain",
+      "flipX": false,
+      "flipY": false,
+      "rotate": 0
+    },
+    "shareCoverPosition": {
+      "x": 48.3,
+      "y": 67.3,
+      "zoom": 212,
+      "fit": "contain",
+      "flipX": false,
+      "flipY": false,
+      "rotate": 0
+    },
+    "showThankYou": true,
+    "thankYouText": "Sự hiện diện của quý khách là niềm vinh hạnh của gia đình chúng tôi!",
+    "selectedMusicId": "acoustic-romance",
+    "autoScroll": true,
+    "autoPlayMusic": true,
+    "fallingPetals": true,
+    "autoPlay3dGallery": true,
+    "isPublished": true,
+    "publishedVersion": 52,
+    "coverBackgroundUrl": "/assets/aistudio/3eaf34e8-d174-4211-be3d-ee3713470129_b690ceac.jpg",
+    "cardOpeningStyle": "curtain-split",
+    "updatedAtMs": 1793373660796,
+    "lastSavedAt": "22:21:00 30/10/2026",
+    "publishedAt": "22:21:00 30/10/2026",
+    "ownerUsername": "admin@123",
+    "customSlugGroom": "quanghung-minhtue",
+    "customSlugBride": "minhtue-quanghung"
+  },
+  "bySlug": {
+    "quanghungminhtue": {
+      "side": "groom",
+      "data": {
+        "themeTemplate": "imperial-dragon",
+        "guests": [
+          {
+            "id": "g_1",
+            "name": "Lan",
+            "salutation": "Cô",
+            "side": "bride",
+            "phone": "0912345678"
+          },
+          {
+            "id": "g_2",
+            "name": "Hùng",
+            "salutation": "Chú",
+            "side": "bride",
+            "phone": "0987654321"
+          },
+          {
+            "id": "g_3",
+            "name": "Thành",
+            "salutation": "Anh",
+            "side": "bride"
+          },
+          {
+            "id": "g_4",
+            "name": "Gia đình Bác Tám",
+            "salutation": "Bác",
+            "side": "bride"
+          },
+          {
+            "id": "g_5",
+            "name": "Tuấn",
+            "salutation": "Bạn",
+            "side": "groom",
+            "phone": "0901234567"
+          },
+          {
+            "id": "g_6",
+            "name": "Minh",
+            "salutation": "Anh",
+            "side": "groom"
+          },
+          {
+            "id": "g_7",
+            "name": "Phương",
+            "salutation": "Chị",
+            "side": "groom"
+          }
+        ],
+        "introText": "THÔNG TIN LỄ VỀ CHUNG MỘT NHÀ",
+        "groomName": "Phùng Văn Hưng",
+        "groomShortName": "Quang Hưng",
+        "groomRole": "Trưởng Nam",
+        "groomAvatarUrl": "/api/media/media_385d6b17539c87cc.jpg",
+        "brideName": "Hoàng Minh Tuệ",
+        "brideShortName": "Minh Tuệ",
+        "brideRole": "Út Nữ",
+        "brideAvatarUrl": "/api/media/media_debf66392f8c9341.jpg",
+        "displayOrder": "groom-first",
+        "showHeroPhoto": true,
+        "heroPhotoUrl": "/api/media/media_cca42efe1813d7a6.jpg",
+        "showGallery": true,
+        "galleryType": "3d",
+        "galleryPhotos": [
+          "/api/media/media_48034d471b1e1c49.jpg",
+          "/api/media/media_cca42efe1813d7a6.jpg"
+        ],
+        "showFamily": true,
+        "groomFamily": {
+          "title": "Ông",
+          "fatherName": "Phùng Văn Vượng",
+          "motherName": "",
+          "address": "Số nhà 10, Đường số 4, thôn Đằng Xã, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "phone": "0988 123 456"
+        },
+        "brideFamily": {
+          "title": "Ông Bà",
+          "fatherName": "Hoàng Hiếu Luân",
+          "motherName": "Nguyễn Thị Phánh",
+          "address": "Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "phone": "0912 345 678"
+        },
+        "showAnnouncement": true,
+        "announcementText": "TRÂN TRỌNG BÁO TIN DỰ LỄ VỀ CHUNG MỘT NHÀ CỦA CON CHÚNG TÔI",
+        "ceremony": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ VỀ CHUNG MỘT NHÀ",
+          "ceremonyType": "thanh-hon",
+          "time": "09:00",
+          "date": "2026-11-29",
+          "address": "Tư gia Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang"
+        },
+        "ceremonyGroom": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ THÀNH HÔN",
+          "ceremonyType": "thanh-hon",
+          "time": "11:00",
+          "date": "2026-11-29",
+          "address": "Số nhà 10, Đường số 4, thôn Đằng Xã, xã Hoằng Hóa, tỉnh Thanh Hóa"
+        },
+        "ceremonyBride": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ VU QUY",
+          "ceremonyType": "vu-quy",
+          "time": "09:00",
+          "date": "2026-11-22",
+          "address": "Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang"
+        },
+        "partyGroom": {
+          "enabled": true,
+          "partyType": "reception",
+          "title": "THÔNG TIN TIỆC VỀ CHUNG NHÀ",
+          "date": "2026-11-29",
+          "time": "16:00",
+          "timeFormat": "24h",
+          "showWelcomeDiningTimes": true,
+          "welcomeTime": "16:00",
+          "diningTime": "16:30",
+          "showCountdown": true,
+          "venueHeader": "TIỆC SẼ TỔ CHỨC TẠI NHÀ ÔNG BÀ PHÙNG VĂN VƯỢNG",
+          "venueName": "Tư Gia Nhà Trai - Gia Đình Ông Bà Phùng Văn Vượng",
+          "venueAddress": "Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "mapEmbedUrl": "https://maps.google.com/maps?q=19.85950,105.85420&hl=vi&z=15&output=embed",
+          "mapCoordinates": {
+            "lat": 19.8595,
+            "lng": 105.8542
+          },
+          "showMap": true
+        },
+        "partyBride": {
+          "enabled": true,
+          "partyType": "reception",
+          "title": "THÔNG TIN TIỆC VỀ CHUNG NHÀ",
+          "date": "2026-11-22",
+          "time": "10:00",
+          "timeFormat": "24h",
+          "showWelcomeDiningTimes": true,
+          "welcomeTime": "10:00",
+          "diningTime": "10:30",
+          "showCountdown": true,
+          "venueHeader": "TIỆC SẼ TỔ CHỨC TẠI NHÀ ÔNG BÀ HOÀNG HIẾU LUÂN",
+          "venueName": "Tư Gia Nhà Gái - Gia Đình Ông Bà Hoàng Hiếu Luân",
+          "venueAddress": "Số nhà 21 Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "mapEmbedUrl": "https://maps.google.com/maps?q=22.10026,105.0259&hl=vi&z=15&output=embed",
+          "mapCoordinates": {
+            "lat": 22.10026,
+            "lng": 105.0259
+          },
+          "showMap": true
+        },
+        "shareGroom": {
+          "coverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+          "coverPosition": {
+            "x": 48.3,
+            "y": 67.3,
+            "zoom": 212,
+            "fit": "contain",
+            "flipX": false,
+            "flipY": false,
+            "rotate": 0
+          },
+          "title": "Thiệp Mời Tiệc Báo Hỷ - Quang Hưng & Minh Tuệ",
+          "description": "Kính mời quý khách tới dự tiệc báo hỷ của Quang Hưng & Minh Tuệ vào lúc 16:00 ngày 29/11/2026 tại Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "dateText": "29/11/2026"
+        },
+        "shareBride": {
+          "coverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+          "coverPosition": {
+            "x": 49.7,
+            "y": 68.3,
+            "zoom": 210,
+            "fit": "contain",
+            "flipX": false,
+            "flipY": false,
+            "rotate": 0
+          },
+          "title": "Thiệp Mời Tiệc Báo Hỷ - Minh Tuệ & Quang Hưng",
+          "description": "Kính mời quý khách tới dự tiệc báo hỷ của Minh Tuệ & Quang Hưng vào lúc 10:00 ngày 22/11/2026 tại Số nhà 21 Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "dateText": "22/11/2026"
+        },
+        "shareCoverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+        "shareTitle": "Quang Hưng & Minh Tuệ",
+        "shareDescription": "Thân mời quý khách đến dự tiệc báo hỷ của Quang Hưng & Minh Tuệ",
+        "shareDateText": "29/11/2026",
+        "groomAvatarPosition": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPosition": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "groomAvatarPositionGroom": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPositionGroom": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "groomAvatarPositionBride": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPositionBride": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "heroPhotoPosition": {
+          "x": 50,
+          "y": 50,
+          "zoom": 100,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 0
+        },
+        "shareCoverPosition": {
+          "x": 48.3,
+          "y": 67.3,
+          "zoom": 212,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 0
+        },
+        "showThankYou": true,
+        "thankYouText": "Sự hiện diện của quý khách là niềm vinh hạnh của gia đình chúng tôi!",
+        "selectedMusicId": "acoustic-romance",
+        "autoScroll": true,
+        "autoPlayMusic": true,
+        "fallingPetals": true,
+        "autoPlay3dGallery": true,
+        "isPublished": true,
+        "publishedVersion": 52,
+        "coverBackgroundUrl": "/assets/aistudio/3eaf34e8-d174-4211-be3d-ee3713470129_b690ceac.jpg",
+        "cardOpeningStyle": "curtain-split",
+        "updatedAtMs": 1793373660796,
+        "lastSavedAt": "22:21:00 30/10/2026",
+        "publishedAt": "22:21:00 30/10/2026",
+        "ownerUsername": "admin@123",
+        "customSlugGroom": "quanghung-minhtue",
+        "customSlugBride": "minhtue-quanghung"
+      },
+      "publishedAt": "22:21:00 30/10/2026",
+      "ownerUsername": "admin@123"
+    },
+    "minhtuequanghung": {
+      "side": "bride",
+      "data": {
+        "themeTemplate": "imperial-dragon",
+        "guests": [
+          {
+            "id": "g_1",
+            "name": "Lan",
+            "salutation": "Cô",
+            "side": "bride",
+            "phone": "0912345678"
+          },
+          {
+            "id": "g_2",
+            "name": "Hùng",
+            "salutation": "Chú",
+            "side": "bride",
+            "phone": "0987654321"
+          },
+          {
+            "id": "g_3",
+            "name": "Thành",
+            "salutation": "Anh",
+            "side": "bride"
+          },
+          {
+            "id": "g_4",
+            "name": "Gia đình Bác Tám",
+            "salutation": "Bác",
+            "side": "bride"
+          },
+          {
+            "id": "g_5",
+            "name": "Tuấn",
+            "salutation": "Bạn",
+            "side": "groom",
+            "phone": "0901234567"
+          },
+          {
+            "id": "g_6",
+            "name": "Minh",
+            "salutation": "Anh",
+            "side": "groom"
+          },
+          {
+            "id": "g_7",
+            "name": "Phương",
+            "salutation": "Chị",
+            "side": "groom"
+          }
+        ],
+        "introText": "THÔNG TIN LỄ VỀ CHUNG MỘT NHÀ",
+        "groomName": "Phùng Văn Hưng",
+        "groomShortName": "Quang Hưng",
+        "groomRole": "Trưởng Nam",
+        "groomAvatarUrl": "/api/media/media_385d6b17539c87cc.jpg",
+        "brideName": "Hoàng Minh Tuệ",
+        "brideShortName": "Minh Tuệ",
+        "brideRole": "Út Nữ",
+        "brideAvatarUrl": "/api/media/media_debf66392f8c9341.jpg",
+        "displayOrder": "groom-first",
+        "showHeroPhoto": true,
+        "heroPhotoUrl": "/api/media/media_cca42efe1813d7a6.jpg",
+        "showGallery": true,
+        "galleryType": "3d",
+        "galleryPhotos": [
+          "/api/media/media_48034d471b1e1c49.jpg",
+          "/api/media/media_cca42efe1813d7a6.jpg"
+        ],
+        "showFamily": true,
+        "groomFamily": {
+          "title": "Ông",
+          "fatherName": "Phùng Văn Vượng",
+          "motherName": "",
+          "address": "Số nhà 10, Đường số 4, thôn Đằng Xã, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "phone": "0988 123 456"
+        },
+        "brideFamily": {
+          "title": "Ông Bà",
+          "fatherName": "Hoàng Hiếu Luân",
+          "motherName": "Nguyễn Thị Phánh",
+          "address": "Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "phone": "0912 345 678"
+        },
+        "showAnnouncement": true,
+        "announcementText": "TRÂN TRỌNG BÁO TIN DỰ LỄ VỀ CHUNG MỘT NHÀ CỦA CON CHÚNG TÔI",
+        "ceremony": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ VỀ CHUNG MỘT NHÀ",
+          "ceremonyType": "thanh-hon",
+          "time": "09:00",
+          "date": "2026-11-29",
+          "address": "Tư gia Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang"
+        },
+        "ceremonyGroom": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ THÀNH HÔN",
+          "ceremonyType": "thanh-hon",
+          "time": "11:00",
+          "date": "2026-11-29",
+          "address": "Số nhà 10, Đường số 4, thôn Đằng Xã, xã Hoằng Hóa, tỉnh Thanh Hóa"
+        },
+        "ceremonyBride": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ VU QUY",
+          "ceremonyType": "vu-quy",
+          "time": "09:00",
+          "date": "2026-11-22",
+          "address": "Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang"
+        },
+        "partyGroom": {
+          "enabled": true,
+          "partyType": "reception",
+          "title": "THÔNG TIN TIỆC VỀ CHUNG NHÀ",
+          "date": "2026-11-29",
+          "time": "16:00",
+          "timeFormat": "24h",
+          "showWelcomeDiningTimes": true,
+          "welcomeTime": "16:00",
+          "diningTime": "16:30",
+          "showCountdown": true,
+          "venueHeader": "TIỆC SẼ TỔ CHỨC TẠI NHÀ ÔNG BÀ PHÙNG VĂN VƯỢNG",
+          "venueName": "Tư Gia Nhà Trai - Gia Đình Ông Bà Phùng Văn Vượng",
+          "venueAddress": "Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "mapEmbedUrl": "https://maps.google.com/maps?q=19.85950,105.85420&hl=vi&z=15&output=embed",
+          "mapCoordinates": {
+            "lat": 19.8595,
+            "lng": 105.8542
+          },
+          "showMap": true
+        },
+        "partyBride": {
+          "enabled": true,
+          "partyType": "reception",
+          "title": "THÔNG TIN TIỆC VỀ CHUNG NHÀ",
+          "date": "2026-11-22",
+          "time": "10:00",
+          "timeFormat": "24h",
+          "showWelcomeDiningTimes": true,
+          "welcomeTime": "10:00",
+          "diningTime": "10:30",
+          "showCountdown": true,
+          "venueHeader": "TIỆC SẼ TỔ CHỨC TẠI NHÀ ÔNG BÀ HOÀNG HIẾU LUÂN",
+          "venueName": "Tư Gia Nhà Gái - Gia Đình Ông Bà Hoàng Hiếu Luân",
+          "venueAddress": "Số nhà 21 Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "mapEmbedUrl": "https://maps.google.com/maps?q=22.10026,105.0259&hl=vi&z=15&output=embed",
+          "mapCoordinates": {
+            "lat": 22.10026,
+            "lng": 105.0259
+          },
+          "showMap": true
+        },
+        "shareGroom": {
+          "coverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+          "coverPosition": {
+            "x": 48.3,
+            "y": 67.3,
+            "zoom": 212,
+            "fit": "contain",
+            "flipX": false,
+            "flipY": false,
+            "rotate": 0
+          },
+          "title": "Thiệp Mời Tiệc Báo Hỷ - Quang Hưng & Minh Tuệ",
+          "description": "Kính mời quý khách tới dự tiệc báo hỷ của Quang Hưng & Minh Tuệ vào lúc 16:00 ngày 29/11/2026 tại Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "dateText": "29/11/2026"
+        },
+        "shareBride": {
+          "coverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+          "coverPosition": {
+            "x": 49.7,
+            "y": 68.3,
+            "zoom": 210,
+            "fit": "contain",
+            "flipX": false,
+            "flipY": false,
+            "rotate": 0
+          },
+          "title": "Thiệp Mời Tiệc Báo Hỷ - Minh Tuệ & Quang Hưng",
+          "description": "Kính mời quý khách tới dự tiệc báo hỷ của Minh Tuệ & Quang Hưng vào lúc 10:00 ngày 22/11/2026 tại Số nhà 21 Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "dateText": "22/11/2026"
+        },
+        "shareCoverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+        "shareTitle": "Quang Hưng & Minh Tuệ",
+        "shareDescription": "Thân mời quý khách đến dự tiệc báo hỷ của Quang Hưng & Minh Tuệ",
+        "shareDateText": "29/11/2026",
+        "groomAvatarPosition": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPosition": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "groomAvatarPositionGroom": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPositionGroom": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "groomAvatarPositionBride": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPositionBride": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "heroPhotoPosition": {
+          "x": 50,
+          "y": 50,
+          "zoom": 100,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 0
+        },
+        "shareCoverPosition": {
+          "x": 48.3,
+          "y": 67.3,
+          "zoom": 212,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 0
+        },
+        "showThankYou": true,
+        "thankYouText": "Sự hiện diện của quý khách là niềm vinh hạnh của gia đình chúng tôi!",
+        "selectedMusicId": "acoustic-romance",
+        "autoScroll": true,
+        "autoPlayMusic": true,
+        "fallingPetals": true,
+        "autoPlay3dGallery": true,
+        "isPublished": true,
+        "publishedVersion": 52,
+        "coverBackgroundUrl": "/assets/aistudio/3eaf34e8-d174-4211-be3d-ee3713470129_b690ceac.jpg",
+        "cardOpeningStyle": "curtain-split",
+        "updatedAtMs": 1793373660796,
+        "lastSavedAt": "22:21:00 30/10/2026",
+        "publishedAt": "22:21:00 30/10/2026",
+        "ownerUsername": "admin@123",
+        "customSlugGroom": "quanghung-minhtue",
+        "customSlugBride": "minhtue-quanghung"
+      },
+      "publishedAt": "22:21:00 30/10/2026",
+      "ownerUsername": "admin@123"
+    },
+    "nha-trai": {
+      "side": "groom",
+      "data": {
+        "themeTemplate": "imperial-dragon",
+        "guests": [
+          {
+            "id": "g_1",
+            "name": "Lan",
+            "salutation": "Cô",
+            "side": "bride",
+            "phone": "0912345678"
+          },
+          {
+            "id": "g_2",
+            "name": "Hùng",
+            "salutation": "Chú",
+            "side": "bride",
+            "phone": "0987654321"
+          },
+          {
+            "id": "g_3",
+            "name": "Thành",
+            "salutation": "Anh",
+            "side": "bride"
+          },
+          {
+            "id": "g_4",
+            "name": "Gia đình Bác Tám",
+            "salutation": "Bác",
+            "side": "bride"
+          },
+          {
+            "id": "g_5",
+            "name": "Tuấn",
+            "salutation": "Bạn",
+            "side": "groom",
+            "phone": "0901234567"
+          },
+          {
+            "id": "g_6",
+            "name": "Minh",
+            "salutation": "Anh",
+            "side": "groom"
+          },
+          {
+            "id": "g_7",
+            "name": "Phương",
+            "salutation": "Chị",
+            "side": "groom"
+          }
+        ],
+        "introText": "THÔNG TIN LỄ VỀ CHUNG MỘT NHÀ",
+        "groomName": "Phùng Văn Hưng",
+        "groomShortName": "Quang Hưng",
+        "groomRole": "Trưởng Nam",
+        "groomAvatarUrl": "/api/media/media_385d6b17539c87cc.jpg",
+        "brideName": "Hoàng Minh Tuệ",
+        "brideShortName": "Minh Tuệ",
+        "brideRole": "Út Nữ",
+        "brideAvatarUrl": "/api/media/media_debf66392f8c9341.jpg",
+        "displayOrder": "groom-first",
+        "showHeroPhoto": true,
+        "heroPhotoUrl": "/api/media/media_cca42efe1813d7a6.jpg",
+        "showGallery": true,
+        "galleryType": "3d",
+        "galleryPhotos": [
+          "/api/media/media_48034d471b1e1c49.jpg",
+          "/api/media/media_cca42efe1813d7a6.jpg"
+        ],
+        "showFamily": true,
+        "groomFamily": {
+          "title": "Ông",
+          "fatherName": "Phùng Văn Vượng",
+          "motherName": "",
+          "address": "Số nhà 10, Đường số 4, thôn Đằng Xã, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "phone": "0988 123 456"
+        },
+        "brideFamily": {
+          "title": "Ông Bà",
+          "fatherName": "Hoàng Hiếu Luân",
+          "motherName": "Nguyễn Thị Phánh",
+          "address": "Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "phone": "0912 345 678"
+        },
+        "showAnnouncement": true,
+        "announcementText": "TRÂN TRỌNG BÁO TIN DỰ LỄ VỀ CHUNG MỘT NHÀ CỦA CON CHÚNG TÔI",
+        "ceremony": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ VỀ CHUNG MỘT NHÀ",
+          "ceremonyType": "thanh-hon",
+          "time": "09:00",
+          "date": "2026-11-29",
+          "address": "Tư gia Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang"
+        },
+        "ceremonyGroom": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ THÀNH HÔN",
+          "ceremonyType": "thanh-hon",
+          "time": "11:00",
+          "date": "2026-11-29",
+          "address": "Số nhà 10, Đường số 4, thôn Đằng Xã, xã Hoằng Hóa, tỉnh Thanh Hóa"
+        },
+        "ceremonyBride": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ VU QUY",
+          "ceremonyType": "vu-quy",
+          "time": "09:00",
+          "date": "2026-11-22",
+          "address": "Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang"
+        },
+        "partyGroom": {
+          "enabled": true,
+          "partyType": "reception",
+          "title": "THÔNG TIN TIỆC VỀ CHUNG NHÀ",
+          "date": "2026-11-29",
+          "time": "16:00",
+          "timeFormat": "24h",
+          "showWelcomeDiningTimes": true,
+          "welcomeTime": "16:00",
+          "diningTime": "16:30",
+          "showCountdown": true,
+          "venueHeader": "TIỆC SẼ TỔ CHỨC TẠI NHÀ ÔNG BÀ PHÙNG VĂN VƯỢNG",
+          "venueName": "Tư Gia Nhà Trai - Gia Đình Ông Bà Phùng Văn Vượng",
+          "venueAddress": "Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "mapEmbedUrl": "https://maps.google.com/maps?q=19.85950,105.85420&hl=vi&z=15&output=embed",
+          "mapCoordinates": {
+            "lat": 19.8595,
+            "lng": 105.8542
+          },
+          "showMap": true
+        },
+        "partyBride": {
+          "enabled": true,
+          "partyType": "reception",
+          "title": "THÔNG TIN TIỆC VỀ CHUNG NHÀ",
+          "date": "2026-11-22",
+          "time": "10:00",
+          "timeFormat": "24h",
+          "showWelcomeDiningTimes": true,
+          "welcomeTime": "10:00",
+          "diningTime": "10:30",
+          "showCountdown": true,
+          "venueHeader": "TIỆC SẼ TỔ CHỨC TẠI NHÀ ÔNG BÀ HOÀNG HIẾU LUÂN",
+          "venueName": "Tư Gia Nhà Gái - Gia Đình Ông Bà Hoàng Hiếu Luân",
+          "venueAddress": "Số nhà 21 Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "mapEmbedUrl": "https://maps.google.com/maps?q=22.10026,105.0259&hl=vi&z=15&output=embed",
+          "mapCoordinates": {
+            "lat": 22.10026,
+            "lng": 105.0259
+          },
+          "showMap": true
+        },
+        "shareGroom": {
+          "coverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+          "coverPosition": {
+            "x": 48.3,
+            "y": 67.3,
+            "zoom": 212,
+            "fit": "contain",
+            "flipX": false,
+            "flipY": false,
+            "rotate": 0
+          },
+          "title": "Thiệp Mời Tiệc Báo Hỷ - Quang Hưng & Minh Tuệ",
+          "description": "Kính mời quý khách tới dự tiệc báo hỷ của Quang Hưng & Minh Tuệ vào lúc 16:00 ngày 29/11/2026 tại Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "dateText": "29/11/2026"
+        },
+        "shareBride": {
+          "coverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+          "coverPosition": {
+            "x": 49.7,
+            "y": 68.3,
+            "zoom": 210,
+            "fit": "contain",
+            "flipX": false,
+            "flipY": false,
+            "rotate": 0
+          },
+          "title": "Thiệp Mời Tiệc Báo Hỷ - Minh Tuệ & Quang Hưng",
+          "description": "Kính mời quý khách tới dự tiệc báo hỷ của Minh Tuệ & Quang Hưng vào lúc 10:00 ngày 22/11/2026 tại Số nhà 21 Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "dateText": "22/11/2026"
+        },
+        "shareCoverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+        "shareTitle": "Quang Hưng & Minh Tuệ",
+        "shareDescription": "Thân mời quý khách đến dự tiệc báo hỷ của Quang Hưng & Minh Tuệ",
+        "shareDateText": "29/11/2026",
+        "groomAvatarPosition": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPosition": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "groomAvatarPositionGroom": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPositionGroom": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "groomAvatarPositionBride": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPositionBride": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "heroPhotoPosition": {
+          "x": 50,
+          "y": 50,
+          "zoom": 100,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 0
+        },
+        "shareCoverPosition": {
+          "x": 48.3,
+          "y": 67.3,
+          "zoom": 212,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 0
+        },
+        "showThankYou": true,
+        "thankYouText": "Sự hiện diện của quý khách là niềm vinh hạnh của gia đình chúng tôi!",
+        "selectedMusicId": "acoustic-romance",
+        "autoScroll": true,
+        "autoPlayMusic": true,
+        "fallingPetals": true,
+        "autoPlay3dGallery": true,
+        "isPublished": true,
+        "publishedVersion": 52,
+        "coverBackgroundUrl": "/assets/aistudio/3eaf34e8-d174-4211-be3d-ee3713470129_b690ceac.jpg",
+        "cardOpeningStyle": "curtain-split",
+        "updatedAtMs": 1793373660796,
+        "lastSavedAt": "22:21:00 30/10/2026",
+        "publishedAt": "22:21:00 30/10/2026",
+        "ownerUsername": "admin@123",
+        "customSlugGroom": "quanghung-minhtue",
+        "customSlugBride": "minhtue-quanghung"
+      },
+      "publishedAt": "22:21:00 30/10/2026",
+      "ownerUsername": "admin@123"
+    },
+    "nha-gai": {
+      "side": "bride",
+      "data": {
+        "themeTemplate": "imperial-dragon",
+        "guests": [
+          {
+            "id": "g_1",
+            "name": "Lan",
+            "salutation": "Cô",
+            "side": "bride",
+            "phone": "0912345678"
+          },
+          {
+            "id": "g_2",
+            "name": "Hùng",
+            "salutation": "Chú",
+            "side": "bride",
+            "phone": "0987654321"
+          },
+          {
+            "id": "g_3",
+            "name": "Thành",
+            "salutation": "Anh",
+            "side": "bride"
+          },
+          {
+            "id": "g_4",
+            "name": "Gia đình Bác Tám",
+            "salutation": "Bác",
+            "side": "bride"
+          },
+          {
+            "id": "g_5",
+            "name": "Tuấn",
+            "salutation": "Bạn",
+            "side": "groom",
+            "phone": "0901234567"
+          },
+          {
+            "id": "g_6",
+            "name": "Minh",
+            "salutation": "Anh",
+            "side": "groom"
+          },
+          {
+            "id": "g_7",
+            "name": "Phương",
+            "salutation": "Chị",
+            "side": "groom"
+          }
+        ],
+        "introText": "THÔNG TIN LỄ VỀ CHUNG MỘT NHÀ",
+        "groomName": "Phùng Văn Hưng",
+        "groomShortName": "Quang Hưng",
+        "groomRole": "Trưởng Nam",
+        "groomAvatarUrl": "/api/media/media_385d6b17539c87cc.jpg",
+        "brideName": "Hoàng Minh Tuệ",
+        "brideShortName": "Minh Tuệ",
+        "brideRole": "Út Nữ",
+        "brideAvatarUrl": "/api/media/media_debf66392f8c9341.jpg",
+        "displayOrder": "groom-first",
+        "showHeroPhoto": true,
+        "heroPhotoUrl": "/api/media/media_cca42efe1813d7a6.jpg",
+        "showGallery": true,
+        "galleryType": "3d",
+        "galleryPhotos": [
+          "/api/media/media_48034d471b1e1c49.jpg",
+          "/api/media/media_cca42efe1813d7a6.jpg"
+        ],
+        "showFamily": true,
+        "groomFamily": {
+          "title": "Ông",
+          "fatherName": "Phùng Văn Vượng",
+          "motherName": "",
+          "address": "Số nhà 10, Đường số 4, thôn Đằng Xã, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "phone": "0988 123 456"
+        },
+        "brideFamily": {
+          "title": "Ông Bà",
+          "fatherName": "Hoàng Hiếu Luân",
+          "motherName": "Nguyễn Thị Phánh",
+          "address": "Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "phone": "0912 345 678"
+        },
+        "showAnnouncement": true,
+        "announcementText": "TRÂN TRỌNG BÁO TIN DỰ LỄ VỀ CHUNG MỘT NHÀ CỦA CON CHÚNG TÔI",
+        "ceremony": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ VỀ CHUNG MỘT NHÀ",
+          "ceremonyType": "thanh-hon",
+          "time": "09:00",
+          "date": "2026-11-29",
+          "address": "Tư gia Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang"
+        },
+        "ceremonyGroom": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ THÀNH HÔN",
+          "ceremonyType": "thanh-hon",
+          "time": "11:00",
+          "date": "2026-11-29",
+          "address": "Số nhà 10, Đường số 4, thôn Đằng Xã, xã Hoằng Hóa, tỉnh Thanh Hóa"
+        },
+        "ceremonyBride": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ VU QUY",
+          "ceremonyType": "vu-quy",
+          "time": "09:00",
+          "date": "2026-11-22",
+          "address": "Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang"
+        },
+        "partyGroom": {
+          "enabled": true,
+          "partyType": "reception",
+          "title": "THÔNG TIN TIỆC VỀ CHUNG NHÀ",
+          "date": "2026-11-29",
+          "time": "16:00",
+          "timeFormat": "24h",
+          "showWelcomeDiningTimes": true,
+          "welcomeTime": "16:00",
+          "diningTime": "16:30",
+          "showCountdown": true,
+          "venueHeader": "TIỆC SẼ TỔ CHỨC TẠI NHÀ ÔNG BÀ PHÙNG VĂN VƯỢNG",
+          "venueName": "Tư Gia Nhà Trai - Gia Đình Ông Bà Phùng Văn Vượng",
+          "venueAddress": "Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "mapEmbedUrl": "https://maps.google.com/maps?q=19.85950,105.85420&hl=vi&z=15&output=embed",
+          "mapCoordinates": {
+            "lat": 19.8595,
+            "lng": 105.8542
+          },
+          "showMap": true
+        },
+        "partyBride": {
+          "enabled": true,
+          "partyType": "reception",
+          "title": "THÔNG TIN TIỆC VỀ CHUNG NHÀ",
+          "date": "2026-11-22",
+          "time": "10:00",
+          "timeFormat": "24h",
+          "showWelcomeDiningTimes": true,
+          "welcomeTime": "10:00",
+          "diningTime": "10:30",
+          "showCountdown": true,
+          "venueHeader": "TIỆC SẼ TỔ CHỨC TẠI NHÀ ÔNG BÀ HOÀNG HIẾU LUÂN",
+          "venueName": "Tư Gia Nhà Gái - Gia Đình Ông Bà Hoàng Hiếu Luân",
+          "venueAddress": "Số nhà 21 Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "mapEmbedUrl": "https://maps.google.com/maps?q=22.10026,105.0259&hl=vi&z=15&output=embed",
+          "mapCoordinates": {
+            "lat": 22.10026,
+            "lng": 105.0259
+          },
+          "showMap": true
+        },
+        "shareGroom": {
+          "coverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+          "coverPosition": {
+            "x": 48.3,
+            "y": 67.3,
+            "zoom": 212,
+            "fit": "contain",
+            "flipX": false,
+            "flipY": false,
+            "rotate": 0
+          },
+          "title": "Thiệp Mời Tiệc Báo Hỷ - Quang Hưng & Minh Tuệ",
+          "description": "Kính mời quý khách tới dự tiệc báo hỷ của Quang Hưng & Minh Tuệ vào lúc 16:00 ngày 29/11/2026 tại Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "dateText": "29/11/2026"
+        },
+        "shareBride": {
+          "coverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+          "coverPosition": {
+            "x": 49.7,
+            "y": 68.3,
+            "zoom": 210,
+            "fit": "contain",
+            "flipX": false,
+            "flipY": false,
+            "rotate": 0
+          },
+          "title": "Thiệp Mời Tiệc Báo Hỷ - Minh Tuệ & Quang Hưng",
+          "description": "Kính mời quý khách tới dự tiệc báo hỷ của Minh Tuệ & Quang Hưng vào lúc 10:00 ngày 22/11/2026 tại Số nhà 21 Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "dateText": "22/11/2026"
+        },
+        "shareCoverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+        "shareTitle": "Quang Hưng & Minh Tuệ",
+        "shareDescription": "Thân mời quý khách đến dự tiệc báo hỷ của Quang Hưng & Minh Tuệ",
+        "shareDateText": "29/11/2026",
+        "groomAvatarPosition": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPosition": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "groomAvatarPositionGroom": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPositionGroom": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "groomAvatarPositionBride": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPositionBride": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "heroPhotoPosition": {
+          "x": 50,
+          "y": 50,
+          "zoom": 100,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 0
+        },
+        "shareCoverPosition": {
+          "x": 48.3,
+          "y": 67.3,
+          "zoom": 212,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 0
+        },
+        "showThankYou": true,
+        "thankYouText": "Sự hiện diện của quý khách là niềm vinh hạnh của gia đình chúng tôi!",
+        "selectedMusicId": "acoustic-romance",
+        "autoScroll": true,
+        "autoPlayMusic": true,
+        "fallingPetals": true,
+        "autoPlay3dGallery": true,
+        "isPublished": true,
+        "publishedVersion": 52,
+        "coverBackgroundUrl": "/assets/aistudio/3eaf34e8-d174-4211-be3d-ee3713470129_b690ceac.jpg",
+        "cardOpeningStyle": "curtain-split",
+        "updatedAtMs": 1793373660796,
+        "lastSavedAt": "22:21:00 30/10/2026",
+        "publishedAt": "22:21:00 30/10/2026",
+        "ownerUsername": "admin@123",
+        "customSlugGroom": "quanghung-minhtue",
+        "customSlugBride": "minhtue-quanghung"
+      },
+      "publishedAt": "22:21:00 30/10/2026",
+      "ownerUsername": "admin@123"
+    },
+    "quanghung-minhtue": {
+      "side": "groom",
+      "data": {
+        "themeTemplate": "imperial-dragon",
+        "guests": [
+          {
+            "id": "g_1",
+            "name": "Lan",
+            "salutation": "Cô",
+            "side": "bride",
+            "phone": "0912345678"
+          },
+          {
+            "id": "g_2",
+            "name": "Hùng",
+            "salutation": "Chú",
+            "side": "bride",
+            "phone": "0987654321"
+          },
+          {
+            "id": "g_3",
+            "name": "Thành",
+            "salutation": "Anh",
+            "side": "bride"
+          },
+          {
+            "id": "g_4",
+            "name": "Gia đình Bác Tám",
+            "salutation": "Bác",
+            "side": "bride"
+          },
+          {
+            "id": "g_5",
+            "name": "Tuấn",
+            "salutation": "Bạn",
+            "side": "groom",
+            "phone": "0901234567"
+          },
+          {
+            "id": "g_6",
+            "name": "Minh",
+            "salutation": "Anh",
+            "side": "groom"
+          },
+          {
+            "id": "g_7",
+            "name": "Phương",
+            "salutation": "Chị",
+            "side": "groom"
+          }
+        ],
+        "introText": "THÔNG TIN LỄ VỀ CHUNG MỘT NHÀ",
+        "groomName": "Phùng Văn Hưng",
+        "groomShortName": "Quang Hưng",
+        "groomRole": "Trưởng Nam",
+        "groomAvatarUrl": "/api/media/media_385d6b17539c87cc.jpg",
+        "brideName": "Hoàng Minh Tuệ",
+        "brideShortName": "Minh Tuệ",
+        "brideRole": "Út Nữ",
+        "brideAvatarUrl": "/api/media/media_debf66392f8c9341.jpg",
+        "displayOrder": "groom-first",
+        "showHeroPhoto": true,
+        "heroPhotoUrl": "/api/media/media_cca42efe1813d7a6.jpg",
+        "showGallery": true,
+        "galleryType": "3d",
+        "galleryPhotos": [
+          "/api/media/media_48034d471b1e1c49.jpg",
+          "/api/media/media_cca42efe1813d7a6.jpg"
+        ],
+        "showFamily": true,
+        "groomFamily": {
+          "title": "Ông",
+          "fatherName": "Phùng Văn Vượng",
+          "motherName": "",
+          "address": "Số nhà 10, Đường số 4, thôn Đằng Xã, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "phone": "0988 123 456"
+        },
+        "brideFamily": {
+          "title": "Ông Bà",
+          "fatherName": "Hoàng Hiếu Luân",
+          "motherName": "Nguyễn Thị Phánh",
+          "address": "Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "phone": "0912 345 678"
+        },
+        "showAnnouncement": true,
+        "announcementText": "TRÂN TRỌNG BÁO TIN DỰ LỄ VỀ CHUNG MỘT NHÀ CỦA CON CHÚNG TÔI",
+        "ceremony": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ VỀ CHUNG MỘT NHÀ",
+          "ceremonyType": "thanh-hon",
+          "time": "09:00",
+          "date": "2026-11-29",
+          "address": "Tư gia Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang"
+        },
+        "ceremonyGroom": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ THÀNH HÔN",
+          "ceremonyType": "thanh-hon",
+          "time": "11:00",
+          "date": "2026-11-29",
+          "address": "Số nhà 10, Đường số 4, thôn Đằng Xã, xã Hoằng Hóa, tỉnh Thanh Hóa"
+        },
+        "ceremonyBride": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ VU QUY",
+          "ceremonyType": "vu-quy",
+          "time": "09:00",
+          "date": "2026-11-22",
+          "address": "Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang"
+        },
+        "partyGroom": {
+          "enabled": true,
+          "partyType": "reception",
+          "title": "THÔNG TIN TIỆC VỀ CHUNG NHÀ",
+          "date": "2026-11-29",
+          "time": "16:00",
+          "timeFormat": "24h",
+          "showWelcomeDiningTimes": true,
+          "welcomeTime": "16:00",
+          "diningTime": "16:30",
+          "showCountdown": true,
+          "venueHeader": "TIỆC SẼ TỔ CHỨC TẠI NHÀ ÔNG BÀ PHÙNG VĂN VƯỢNG",
+          "venueName": "Tư Gia Nhà Trai - Gia Đình Ông Bà Phùng Văn Vượng",
+          "venueAddress": "Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "mapEmbedUrl": "https://maps.google.com/maps?q=19.85950,105.85420&hl=vi&z=15&output=embed",
+          "mapCoordinates": {
+            "lat": 19.8595,
+            "lng": 105.8542
+          },
+          "showMap": true
+        },
+        "partyBride": {
+          "enabled": true,
+          "partyType": "reception",
+          "title": "THÔNG TIN TIỆC VỀ CHUNG NHÀ",
+          "date": "2026-11-22",
+          "time": "10:00",
+          "timeFormat": "24h",
+          "showWelcomeDiningTimes": true,
+          "welcomeTime": "10:00",
+          "diningTime": "10:30",
+          "showCountdown": true,
+          "venueHeader": "TIỆC SẼ TỔ CHỨC TẠI NHÀ ÔNG BÀ HOÀNG HIẾU LUÂN",
+          "venueName": "Tư Gia Nhà Gái - Gia Đình Ông Bà Hoàng Hiếu Luân",
+          "venueAddress": "Số nhà 21 Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "mapEmbedUrl": "https://maps.google.com/maps?q=22.10026,105.0259&hl=vi&z=15&output=embed",
+          "mapCoordinates": {
+            "lat": 22.10026,
+            "lng": 105.0259
+          },
+          "showMap": true
+        },
+        "shareGroom": {
+          "coverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+          "coverPosition": {
+            "x": 48.3,
+            "y": 67.3,
+            "zoom": 212,
+            "fit": "contain",
+            "flipX": false,
+            "flipY": false,
+            "rotate": 0
+          },
+          "title": "Thiệp Mời Tiệc Báo Hỷ - Quang Hưng & Minh Tuệ",
+          "description": "Kính mời quý khách tới dự tiệc báo hỷ của Quang Hưng & Minh Tuệ vào lúc 16:00 ngày 29/11/2026 tại Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "dateText": "29/11/2026"
+        },
+        "shareBride": {
+          "coverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+          "coverPosition": {
+            "x": 49.7,
+            "y": 68.3,
+            "zoom": 210,
+            "fit": "contain",
+            "flipX": false,
+            "flipY": false,
+            "rotate": 0
+          },
+          "title": "Thiệp Mời Tiệc Báo Hỷ - Minh Tuệ & Quang Hưng",
+          "description": "Kính mời quý khách tới dự tiệc báo hỷ của Minh Tuệ & Quang Hưng vào lúc 10:00 ngày 22/11/2026 tại Số nhà 21 Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "dateText": "22/11/2026"
+        },
+        "shareCoverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+        "shareTitle": "Quang Hưng & Minh Tuệ",
+        "shareDescription": "Thân mời quý khách đến dự tiệc báo hỷ của Quang Hưng & Minh Tuệ",
+        "shareDateText": "29/11/2026",
+        "groomAvatarPosition": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPosition": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "groomAvatarPositionGroom": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPositionGroom": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "groomAvatarPositionBride": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPositionBride": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "heroPhotoPosition": {
+          "x": 50,
+          "y": 50,
+          "zoom": 100,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 0
+        },
+        "shareCoverPosition": {
+          "x": 48.3,
+          "y": 67.3,
+          "zoom": 212,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 0
+        },
+        "showThankYou": true,
+        "thankYouText": "Sự hiện diện của quý khách là niềm vinh hạnh của gia đình chúng tôi!",
+        "selectedMusicId": "acoustic-romance",
+        "autoScroll": true,
+        "autoPlayMusic": true,
+        "fallingPetals": true,
+        "autoPlay3dGallery": true,
+        "isPublished": true,
+        "publishedVersion": 52,
+        "coverBackgroundUrl": "/assets/aistudio/3eaf34e8-d174-4211-be3d-ee3713470129_b690ceac.jpg",
+        "cardOpeningStyle": "curtain-split",
+        "updatedAtMs": 1793373660796,
+        "lastSavedAt": "22:21:00 30/10/2026",
+        "publishedAt": "22:21:00 30/10/2026",
+        "ownerUsername": "admin@123",
+        "customSlugGroom": "quanghung-minhtue",
+        "customSlugBride": "minhtue-quanghung"
+      },
+      "publishedAt": "22:21:00 30/10/2026",
+      "ownerUsername": "admin@123"
+    },
+    "nhatrai": {
+      "side": "groom",
+      "data": {
+        "themeTemplate": "imperial-dragon",
+        "guests": [
+          {
+            "id": "g_1",
+            "name": "Lan",
+            "salutation": "Cô",
+            "side": "bride",
+            "phone": "0912345678"
+          },
+          {
+            "id": "g_2",
+            "name": "Hùng",
+            "salutation": "Chú",
+            "side": "bride",
+            "phone": "0987654321"
+          },
+          {
+            "id": "g_3",
+            "name": "Thành",
+            "salutation": "Anh",
+            "side": "bride"
+          },
+          {
+            "id": "g_4",
+            "name": "Gia đình Bác Tám",
+            "salutation": "Bác",
+            "side": "bride"
+          },
+          {
+            "id": "g_5",
+            "name": "Tuấn",
+            "salutation": "Bạn",
+            "side": "groom",
+            "phone": "0901234567"
+          },
+          {
+            "id": "g_6",
+            "name": "Minh",
+            "salutation": "Anh",
+            "side": "groom"
+          },
+          {
+            "id": "g_7",
+            "name": "Phương",
+            "salutation": "Chị",
+            "side": "groom"
+          }
+        ],
+        "introText": "THÔNG TIN LỄ VỀ CHUNG MỘT NHÀ",
+        "groomName": "Phùng Văn Hưng",
+        "groomShortName": "Quang Hưng",
+        "groomRole": "Trưởng Nam",
+        "groomAvatarUrl": "/api/media/media_385d6b17539c87cc.jpg",
+        "brideName": "Hoàng Minh Tuệ",
+        "brideShortName": "Minh Tuệ",
+        "brideRole": "Út Nữ",
+        "brideAvatarUrl": "/api/media/media_debf66392f8c9341.jpg",
+        "displayOrder": "groom-first",
+        "showHeroPhoto": true,
+        "heroPhotoUrl": "/api/media/media_cca42efe1813d7a6.jpg",
+        "showGallery": true,
+        "galleryType": "3d",
+        "galleryPhotos": [
+          "/api/media/media_48034d471b1e1c49.jpg",
+          "/api/media/media_cca42efe1813d7a6.jpg"
+        ],
+        "showFamily": true,
+        "groomFamily": {
+          "title": "Ông",
+          "fatherName": "Phùng Văn Vượng",
+          "motherName": "",
+          "address": "Số nhà 10, Đường số 4, thôn Đằng Xã, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "phone": "0988 123 456"
+        },
+        "brideFamily": {
+          "title": "Ông Bà",
+          "fatherName": "Hoàng Hiếu Luân",
+          "motherName": "Nguyễn Thị Phánh",
+          "address": "Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "phone": "0912 345 678"
+        },
+        "showAnnouncement": true,
+        "announcementText": "TRÂN TRỌNG BÁO TIN DỰ LỄ VỀ CHUNG MỘT NHÀ CỦA CON CHÚNG TÔI",
+        "ceremony": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ VỀ CHUNG MỘT NHÀ",
+          "ceremonyType": "thanh-hon",
+          "time": "09:00",
+          "date": "2026-11-29",
+          "address": "Tư gia Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang"
+        },
+        "ceremonyGroom": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ THÀNH HÔN",
+          "ceremonyType": "thanh-hon",
+          "time": "11:00",
+          "date": "2026-11-29",
+          "address": "Số nhà 10, Đường số 4, thôn Đằng Xã, xã Hoằng Hóa, tỉnh Thanh Hóa"
+        },
+        "ceremonyBride": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ VU QUY",
+          "ceremonyType": "vu-quy",
+          "time": "09:00",
+          "date": "2026-11-22",
+          "address": "Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang"
+        },
+        "partyGroom": {
+          "enabled": true,
+          "partyType": "reception",
+          "title": "THÔNG TIN TIỆC VỀ CHUNG NHÀ",
+          "date": "2026-11-29",
+          "time": "16:00",
+          "timeFormat": "24h",
+          "showWelcomeDiningTimes": true,
+          "welcomeTime": "16:00",
+          "diningTime": "16:30",
+          "showCountdown": true,
+          "venueHeader": "TIỆC SẼ TỔ CHỨC TẠI NHÀ ÔNG BÀ PHÙNG VĂN VƯỢNG",
+          "venueName": "Tư Gia Nhà Trai - Gia Đình Ông Bà Phùng Văn Vượng",
+          "venueAddress": "Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "mapEmbedUrl": "https://maps.google.com/maps?q=19.85950,105.85420&hl=vi&z=15&output=embed",
+          "mapCoordinates": {
+            "lat": 19.8595,
+            "lng": 105.8542
+          },
+          "showMap": true
+        },
+        "partyBride": {
+          "enabled": true,
+          "partyType": "reception",
+          "title": "THÔNG TIN TIỆC VỀ CHUNG NHÀ",
+          "date": "2026-11-22",
+          "time": "10:00",
+          "timeFormat": "24h",
+          "showWelcomeDiningTimes": true,
+          "welcomeTime": "10:00",
+          "diningTime": "10:30",
+          "showCountdown": true,
+          "venueHeader": "TIỆC SẼ TỔ CHỨC TẠI NHÀ ÔNG BÀ HOÀNG HIẾU LUÂN",
+          "venueName": "Tư Gia Nhà Gái - Gia Đình Ông Bà Hoàng Hiếu Luân",
+          "venueAddress": "Số nhà 21 Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "mapEmbedUrl": "https://maps.google.com/maps?q=22.10026,105.0259&hl=vi&z=15&output=embed",
+          "mapCoordinates": {
+            "lat": 22.10026,
+            "lng": 105.0259
+          },
+          "showMap": true
+        },
+        "shareGroom": {
+          "coverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+          "coverPosition": {
+            "x": 48.3,
+            "y": 67.3,
+            "zoom": 212,
+            "fit": "contain",
+            "flipX": false,
+            "flipY": false,
+            "rotate": 0
+          },
+          "title": "Thiệp Mời Tiệc Báo Hỷ - Quang Hưng & Minh Tuệ",
+          "description": "Kính mời quý khách tới dự tiệc báo hỷ của Quang Hưng & Minh Tuệ vào lúc 16:00 ngày 29/11/2026 tại Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "dateText": "29/11/2026"
+        },
+        "shareBride": {
+          "coverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+          "coverPosition": {
+            "x": 49.7,
+            "y": 68.3,
+            "zoom": 210,
+            "fit": "contain",
+            "flipX": false,
+            "flipY": false,
+            "rotate": 0
+          },
+          "title": "Thiệp Mời Tiệc Báo Hỷ - Minh Tuệ & Quang Hưng",
+          "description": "Kính mời quý khách tới dự tiệc báo hỷ của Minh Tuệ & Quang Hưng vào lúc 10:00 ngày 22/11/2026 tại Số nhà 21 Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "dateText": "22/11/2026"
+        },
+        "shareCoverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+        "shareTitle": "Quang Hưng & Minh Tuệ",
+        "shareDescription": "Thân mời quý khách đến dự tiệc báo hỷ của Quang Hưng & Minh Tuệ",
+        "shareDateText": "29/11/2026",
+        "groomAvatarPosition": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPosition": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "groomAvatarPositionGroom": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPositionGroom": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "groomAvatarPositionBride": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPositionBride": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "heroPhotoPosition": {
+          "x": 50,
+          "y": 50,
+          "zoom": 100,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 0
+        },
+        "shareCoverPosition": {
+          "x": 48.3,
+          "y": 67.3,
+          "zoom": 212,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 0
+        },
+        "showThankYou": true,
+        "thankYouText": "Sự hiện diện của quý khách là niềm vinh hạnh của gia đình chúng tôi!",
+        "selectedMusicId": "acoustic-romance",
+        "autoScroll": true,
+        "autoPlayMusic": true,
+        "fallingPetals": true,
+        "autoPlay3dGallery": true,
+        "isPublished": true,
+        "publishedVersion": 52,
+        "coverBackgroundUrl": "/assets/aistudio/3eaf34e8-d174-4211-be3d-ee3713470129_b690ceac.jpg",
+        "cardOpeningStyle": "curtain-split",
+        "updatedAtMs": 1793373660796,
+        "lastSavedAt": "22:21:00 30/10/2026",
+        "publishedAt": "22:21:00 30/10/2026",
+        "ownerUsername": "admin@123",
+        "customSlugGroom": "quanghung-minhtue",
+        "customSlugBride": "minhtue-quanghung"
+      },
+      "publishedAt": "22:21:00 30/10/2026",
+      "ownerUsername": "admin@123"
+    },
+    "minhtue-quanghung": {
+      "side": "bride",
+      "data": {
+        "themeTemplate": "imperial-dragon",
+        "guests": [
+          {
+            "id": "g_1",
+            "name": "Lan",
+            "salutation": "Cô",
+            "side": "bride",
+            "phone": "0912345678"
+          },
+          {
+            "id": "g_2",
+            "name": "Hùng",
+            "salutation": "Chú",
+            "side": "bride",
+            "phone": "0987654321"
+          },
+          {
+            "id": "g_3",
+            "name": "Thành",
+            "salutation": "Anh",
+            "side": "bride"
+          },
+          {
+            "id": "g_4",
+            "name": "Gia đình Bác Tám",
+            "salutation": "Bác",
+            "side": "bride"
+          },
+          {
+            "id": "g_5",
+            "name": "Tuấn",
+            "salutation": "Bạn",
+            "side": "groom",
+            "phone": "0901234567"
+          },
+          {
+            "id": "g_6",
+            "name": "Minh",
+            "salutation": "Anh",
+            "side": "groom"
+          },
+          {
+            "id": "g_7",
+            "name": "Phương",
+            "salutation": "Chị",
+            "side": "groom"
+          }
+        ],
+        "introText": "THÔNG TIN LỄ VỀ CHUNG MỘT NHÀ",
+        "groomName": "Phùng Văn Hưng",
+        "groomShortName": "Quang Hưng",
+        "groomRole": "Trưởng Nam",
+        "groomAvatarUrl": "/api/media/media_385d6b17539c87cc.jpg",
+        "brideName": "Hoàng Minh Tuệ",
+        "brideShortName": "Minh Tuệ",
+        "brideRole": "Út Nữ",
+        "brideAvatarUrl": "/api/media/media_debf66392f8c9341.jpg",
+        "displayOrder": "groom-first",
+        "showHeroPhoto": true,
+        "heroPhotoUrl": "/api/media/media_cca42efe1813d7a6.jpg",
+        "showGallery": true,
+        "galleryType": "3d",
+        "galleryPhotos": [
+          "/api/media/media_48034d471b1e1c49.jpg",
+          "/api/media/media_cca42efe1813d7a6.jpg"
+        ],
+        "showFamily": true,
+        "groomFamily": {
+          "title": "Ông",
+          "fatherName": "Phùng Văn Vượng",
+          "motherName": "",
+          "address": "Số nhà 10, Đường số 4, thôn Đằng Xã, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "phone": "0988 123 456"
+        },
+        "brideFamily": {
+          "title": "Ông Bà",
+          "fatherName": "Hoàng Hiếu Luân",
+          "motherName": "Nguyễn Thị Phánh",
+          "address": "Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "phone": "0912 345 678"
+        },
+        "showAnnouncement": true,
+        "announcementText": "TRÂN TRỌNG BÁO TIN DỰ LỄ VỀ CHUNG MỘT NHÀ CỦA CON CHÚNG TÔI",
+        "ceremony": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ VỀ CHUNG MỘT NHÀ",
+          "ceremonyType": "thanh-hon",
+          "time": "09:00",
+          "date": "2026-11-29",
+          "address": "Tư gia Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang"
+        },
+        "ceremonyGroom": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ THÀNH HÔN",
+          "ceremonyType": "thanh-hon",
+          "time": "11:00",
+          "date": "2026-11-29",
+          "address": "Số nhà 10, Đường số 4, thôn Đằng Xã, xã Hoằng Hóa, tỉnh Thanh Hóa"
+        },
+        "ceremonyBride": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ VU QUY",
+          "ceremonyType": "vu-quy",
+          "time": "09:00",
+          "date": "2026-11-22",
+          "address": "Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang"
+        },
+        "partyGroom": {
+          "enabled": true,
+          "partyType": "reception",
+          "title": "THÔNG TIN TIỆC VỀ CHUNG NHÀ",
+          "date": "2026-11-29",
+          "time": "16:00",
+          "timeFormat": "24h",
+          "showWelcomeDiningTimes": true,
+          "welcomeTime": "16:00",
+          "diningTime": "16:30",
+          "showCountdown": true,
+          "venueHeader": "TIỆC SẼ TỔ CHỨC TẠI NHÀ ÔNG BÀ PHÙNG VĂN VƯỢNG",
+          "venueName": "Tư Gia Nhà Trai - Gia Đình Ông Bà Phùng Văn Vượng",
+          "venueAddress": "Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "mapEmbedUrl": "https://maps.google.com/maps?q=19.85950,105.85420&hl=vi&z=15&output=embed",
+          "mapCoordinates": {
+            "lat": 19.8595,
+            "lng": 105.8542
+          },
+          "showMap": true
+        },
+        "partyBride": {
+          "enabled": true,
+          "partyType": "reception",
+          "title": "THÔNG TIN TIỆC VỀ CHUNG NHÀ",
+          "date": "2026-11-22",
+          "time": "10:00",
+          "timeFormat": "24h",
+          "showWelcomeDiningTimes": true,
+          "welcomeTime": "10:00",
+          "diningTime": "10:30",
+          "showCountdown": true,
+          "venueHeader": "TIỆC SẼ TỔ CHỨC TẠI NHÀ ÔNG BÀ HOÀNG HIẾU LUÂN",
+          "venueName": "Tư Gia Nhà Gái - Gia Đình Ông Bà Hoàng Hiếu Luân",
+          "venueAddress": "Số nhà 21 Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "mapEmbedUrl": "https://maps.google.com/maps?q=22.10026,105.0259&hl=vi&z=15&output=embed",
+          "mapCoordinates": {
+            "lat": 22.10026,
+            "lng": 105.0259
+          },
+          "showMap": true
+        },
+        "shareGroom": {
+          "coverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+          "coverPosition": {
+            "x": 48.3,
+            "y": 67.3,
+            "zoom": 212,
+            "fit": "contain",
+            "flipX": false,
+            "flipY": false,
+            "rotate": 0
+          },
+          "title": "Thiệp Mời Tiệc Báo Hỷ - Quang Hưng & Minh Tuệ",
+          "description": "Kính mời quý khách tới dự tiệc báo hỷ của Quang Hưng & Minh Tuệ vào lúc 16:00 ngày 29/11/2026 tại Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "dateText": "29/11/2026"
+        },
+        "shareBride": {
+          "coverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+          "coverPosition": {
+            "x": 49.7,
+            "y": 68.3,
+            "zoom": 210,
+            "fit": "contain",
+            "flipX": false,
+            "flipY": false,
+            "rotate": 0
+          },
+          "title": "Thiệp Mời Tiệc Báo Hỷ - Minh Tuệ & Quang Hưng",
+          "description": "Kính mời quý khách tới dự tiệc báo hỷ của Minh Tuệ & Quang Hưng vào lúc 10:00 ngày 22/11/2026 tại Số nhà 21 Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "dateText": "22/11/2026"
+        },
+        "shareCoverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+        "shareTitle": "Quang Hưng & Minh Tuệ",
+        "shareDescription": "Thân mời quý khách đến dự tiệc báo hỷ của Quang Hưng & Minh Tuệ",
+        "shareDateText": "29/11/2026",
+        "groomAvatarPosition": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPosition": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "groomAvatarPositionGroom": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPositionGroom": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "groomAvatarPositionBride": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPositionBride": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "heroPhotoPosition": {
+          "x": 50,
+          "y": 50,
+          "zoom": 100,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 0
+        },
+        "shareCoverPosition": {
+          "x": 48.3,
+          "y": 67.3,
+          "zoom": 212,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 0
+        },
+        "showThankYou": true,
+        "thankYouText": "Sự hiện diện của quý khách là niềm vinh hạnh của gia đình chúng tôi!",
+        "selectedMusicId": "acoustic-romance",
+        "autoScroll": true,
+        "autoPlayMusic": true,
+        "fallingPetals": true,
+        "autoPlay3dGallery": true,
+        "isPublished": true,
+        "publishedVersion": 52,
+        "coverBackgroundUrl": "/assets/aistudio/3eaf34e8-d174-4211-be3d-ee3713470129_b690ceac.jpg",
+        "cardOpeningStyle": "curtain-split",
+        "updatedAtMs": 1793373660796,
+        "lastSavedAt": "22:21:00 30/10/2026",
+        "publishedAt": "22:21:00 30/10/2026",
+        "ownerUsername": "admin@123",
+        "customSlugGroom": "quanghung-minhtue",
+        "customSlugBride": "minhtue-quanghung"
+      },
+      "publishedAt": "22:21:00 30/10/2026",
+      "ownerUsername": "admin@123"
+    },
+    "nhagai": {
+      "side": "bride",
+      "data": {
+        "themeTemplate": "imperial-dragon",
+        "guests": [
+          {
+            "id": "g_1",
+            "name": "Lan",
+            "salutation": "Cô",
+            "side": "bride",
+            "phone": "0912345678"
+          },
+          {
+            "id": "g_2",
+            "name": "Hùng",
+            "salutation": "Chú",
+            "side": "bride",
+            "phone": "0987654321"
+          },
+          {
+            "id": "g_3",
+            "name": "Thành",
+            "salutation": "Anh",
+            "side": "bride"
+          },
+          {
+            "id": "g_4",
+            "name": "Gia đình Bác Tám",
+            "salutation": "Bác",
+            "side": "bride"
+          },
+          {
+            "id": "g_5",
+            "name": "Tuấn",
+            "salutation": "Bạn",
+            "side": "groom",
+            "phone": "0901234567"
+          },
+          {
+            "id": "g_6",
+            "name": "Minh",
+            "salutation": "Anh",
+            "side": "groom"
+          },
+          {
+            "id": "g_7",
+            "name": "Phương",
+            "salutation": "Chị",
+            "side": "groom"
+          }
+        ],
+        "introText": "THÔNG TIN LỄ VỀ CHUNG MỘT NHÀ",
+        "groomName": "Phùng Văn Hưng",
+        "groomShortName": "Quang Hưng",
+        "groomRole": "Trưởng Nam",
+        "groomAvatarUrl": "/api/media/media_385d6b17539c87cc.jpg",
+        "brideName": "Hoàng Minh Tuệ",
+        "brideShortName": "Minh Tuệ",
+        "brideRole": "Út Nữ",
+        "brideAvatarUrl": "/api/media/media_debf66392f8c9341.jpg",
+        "displayOrder": "groom-first",
+        "showHeroPhoto": true,
+        "heroPhotoUrl": "/api/media/media_cca42efe1813d7a6.jpg",
+        "showGallery": true,
+        "galleryType": "3d",
+        "galleryPhotos": [
+          "/api/media/media_48034d471b1e1c49.jpg",
+          "/api/media/media_cca42efe1813d7a6.jpg"
+        ],
+        "showFamily": true,
+        "groomFamily": {
+          "title": "Ông",
+          "fatherName": "Phùng Văn Vượng",
+          "motherName": "",
+          "address": "Số nhà 10, Đường số 4, thôn Đằng Xã, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "phone": "0988 123 456"
+        },
+        "brideFamily": {
+          "title": "Ông Bà",
+          "fatherName": "Hoàng Hiếu Luân",
+          "motherName": "Nguyễn Thị Phánh",
+          "address": "Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "phone": "0912 345 678"
+        },
+        "showAnnouncement": true,
+        "announcementText": "TRÂN TRỌNG BÁO TIN DỰ LỄ VỀ CHUNG MỘT NHÀ CỦA CON CHÚNG TÔI",
+        "ceremony": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ VỀ CHUNG MỘT NHÀ",
+          "ceremonyType": "thanh-hon",
+          "time": "09:00",
+          "date": "2026-11-29",
+          "address": "Tư gia Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang"
+        },
+        "ceremonyGroom": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ THÀNH HÔN",
+          "ceremonyType": "thanh-hon",
+          "time": "11:00",
+          "date": "2026-11-29",
+          "address": "Số nhà 10, Đường số 4, thôn Đằng Xã, xã Hoằng Hóa, tỉnh Thanh Hóa"
+        },
+        "ceremonyBride": {
+          "enabled": true,
+          "title": "THÔNG TIN LỄ VU QUY",
+          "ceremonyType": "vu-quy",
+          "time": "09:00",
+          "date": "2026-11-22",
+          "address": "Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang"
+        },
+        "partyGroom": {
+          "enabled": true,
+          "partyType": "reception",
+          "title": "THÔNG TIN TIỆC VỀ CHUNG NHÀ",
+          "date": "2026-11-29",
+          "time": "16:00",
+          "timeFormat": "24h",
+          "showWelcomeDiningTimes": true,
+          "welcomeTime": "16:00",
+          "diningTime": "16:30",
+          "showCountdown": true,
+          "venueHeader": "TIỆC SẼ TỔ CHỨC TẠI NHÀ ÔNG BÀ PHÙNG VĂN VƯỢNG",
+          "venueName": "Tư Gia Nhà Trai - Gia Đình Ông Bà Phùng Văn Vượng",
+          "venueAddress": "Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "mapEmbedUrl": "https://maps.google.com/maps?q=19.85950,105.85420&hl=vi&z=15&output=embed",
+          "mapCoordinates": {
+            "lat": 19.8595,
+            "lng": 105.8542
+          },
+          "showMap": true
+        },
+        "partyBride": {
+          "enabled": true,
+          "partyType": "reception",
+          "title": "THÔNG TIN TIỆC VỀ CHUNG NHÀ",
+          "date": "2026-11-22",
+          "time": "10:00",
+          "timeFormat": "24h",
+          "showWelcomeDiningTimes": true,
+          "welcomeTime": "10:00",
+          "diningTime": "10:30",
+          "showCountdown": true,
+          "venueHeader": "TIỆC SẼ TỔ CHỨC TẠI NHÀ ÔNG BÀ HOÀNG HIẾU LUÂN",
+          "venueName": "Tư Gia Nhà Gái - Gia Đình Ông Bà Hoàng Hiếu Luân",
+          "venueAddress": "Số nhà 21 Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "mapEmbedUrl": "https://maps.google.com/maps?q=22.10026,105.0259&hl=vi&z=15&output=embed",
+          "mapCoordinates": {
+            "lat": 22.10026,
+            "lng": 105.0259
+          },
+          "showMap": true
+        },
+        "shareGroom": {
+          "coverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+          "coverPosition": {
+            "x": 48.3,
+            "y": 67.3,
+            "zoom": 212,
+            "fit": "contain",
+            "flipX": false,
+            "flipY": false,
+            "rotate": 0
+          },
+          "title": "Thiệp Mời Tiệc Báo Hỷ - Quang Hưng & Minh Tuệ",
+          "description": "Kính mời quý khách tới dự tiệc báo hỷ của Quang Hưng & Minh Tuệ vào lúc 16:00 ngày 29/11/2026 tại Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa",
+          "dateText": "29/11/2026"
+        },
+        "shareBride": {
+          "coverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+          "coverPosition": {
+            "x": 49.7,
+            "y": 68.3,
+            "zoom": 210,
+            "fit": "contain",
+            "flipX": false,
+            "flipY": false,
+            "rotate": 0
+          },
+          "title": "Thiệp Mời Tiệc Báo Hỷ - Minh Tuệ & Quang Hưng",
+          "description": "Kính mời quý khách tới dự tiệc báo hỷ của Minh Tuệ & Quang Hưng vào lúc 10:00 ngày 22/11/2026 tại Số nhà 21 Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+          "dateText": "22/11/2026"
+        },
+        "shareCoverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+        "shareTitle": "Quang Hưng & Minh Tuệ",
+        "shareDescription": "Thân mời quý khách đến dự tiệc báo hỷ của Quang Hưng & Minh Tuệ",
+        "shareDateText": "29/11/2026",
+        "groomAvatarPosition": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPosition": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "groomAvatarPositionGroom": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPositionGroom": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "groomAvatarPositionBride": {
+          "x": 48.9,
+          "y": 47.1,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": -1
+        },
+        "brideAvatarPositionBride": {
+          "x": 50,
+          "y": 46.8,
+          "zoom": 106,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 12
+        },
+        "heroPhotoPosition": {
+          "x": 50,
+          "y": 50,
+          "zoom": 100,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 0
+        },
+        "shareCoverPosition": {
+          "x": 48.3,
+          "y": 67.3,
+          "zoom": 212,
+          "fit": "contain",
+          "flipX": false,
+          "flipY": false,
+          "rotate": 0
+        },
+        "showThankYou": true,
+        "thankYouText": "Sự hiện diện của quý khách là niềm vinh hạnh của gia đình chúng tôi!",
+        "selectedMusicId": "acoustic-romance",
+        "autoScroll": true,
+        "autoPlayMusic": true,
+        "fallingPetals": true,
+        "autoPlay3dGallery": true,
+        "isPublished": true,
+        "publishedVersion": 52,
+        "coverBackgroundUrl": "/assets/aistudio/3eaf34e8-d174-4211-be3d-ee3713470129_b690ceac.jpg",
+        "cardOpeningStyle": "curtain-split",
+        "updatedAtMs": 1793373660796,
+        "lastSavedAt": "22:21:00 30/10/2026",
+        "publishedAt": "22:21:00 30/10/2026",
+        "ownerUsername": "admin@123",
+        "customSlugGroom": "quanghung-minhtue",
+        "customSlugBride": "minhtue-quanghung"
+      },
+      "publishedAt": "22:21:00 30/10/2026",
+      "ownerUsername": "admin@123"
+    }
+  },
+  "byAccount": {
+    "admin@123": {
+      "projects": [
+        {
+          "id": "card_default",
+          "title": "Quang Hưng & Minh Tuệ",
+          "updatedAt": "22:21:00 30/10/2026",
+          "data": {
+            "themeTemplate": "imperial-dragon",
+            "guests": [
+              {
+                "id": "g_1",
+                "name": "Lan",
+                "salutation": "Cô",
+                "side": "bride",
+                "phone": "0912345678"
+              },
+              {
+                "id": "g_2",
+                "name": "Hùng",
+                "salutation": "Chú",
+                "side": "bride",
+                "phone": "0987654321"
+              },
+              {
+                "id": "g_3",
+                "name": "Thành",
+                "salutation": "Anh",
+                "side": "bride"
+              },
+              {
+                "id": "g_4",
+                "name": "Gia đình Bác Tám",
+                "salutation": "Bác",
+                "side": "bride"
+              },
+              {
+                "id": "g_5",
+                "name": "Tuấn",
+                "salutation": "Bạn",
+                "side": "groom",
+                "phone": "0901234567"
+              },
+              {
+                "id": "g_6",
+                "name": "Minh",
+                "salutation": "Anh",
+                "side": "groom"
+              },
+              {
+                "id": "g_7",
+                "name": "Phương",
+                "salutation": "Chị",
+                "side": "groom"
+              }
+            ],
+            "introText": "THÔNG TIN LỄ VỀ CHUNG MỘT NHÀ",
+            "groomName": "Phùng Văn Hưng",
+            "groomShortName": "Quang Hưng",
+            "groomRole": "Trưởng Nam",
+            "groomAvatarUrl": "/api/media/media_385d6b17539c87cc.jpg",
+            "brideName": "Hoàng Minh Tuệ",
+            "brideShortName": "Minh Tuệ",
+            "brideRole": "Út Nữ",
+            "brideAvatarUrl": "/api/media/media_debf66392f8c9341.jpg",
+            "displayOrder": "groom-first",
+            "showHeroPhoto": true,
+            "heroPhotoUrl": "/api/media/media_cca42efe1813d7a6.jpg",
+            "showGallery": true,
+            "galleryType": "3d",
+            "galleryPhotos": [
+              "/api/media/media_48034d471b1e1c49.jpg",
+              "/api/media/media_cca42efe1813d7a6.jpg"
+            ],
+            "showFamily": true,
+            "groomFamily": {
+              "title": "Ông",
+              "fatherName": "Phùng Văn Vượng",
+              "motherName": "",
+              "address": "Số nhà 10, Đường số 4, thôn Đằng Xã, xã Hoằng Hóa, tỉnh Thanh Hóa",
+              "phone": "0988 123 456"
+            },
+            "brideFamily": {
+              "title": "Ông Bà",
+              "fatherName": "Hoàng Hiếu Luân",
+              "motherName": "Nguyễn Thị Phánh",
+              "address": "Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+              "phone": "0912 345 678"
+            },
+            "showAnnouncement": true,
+            "announcementText": "TRÂN TRỌNG BÁO TIN DỰ LỄ VỀ CHUNG MỘT NHÀ CỦA CON CHÚNG TÔI",
+            "ceremony": {
+              "enabled": true,
+              "title": "THÔNG TIN LỄ VỀ CHUNG MỘT NHÀ",
+              "ceremonyType": "thanh-hon",
+              "time": "09:00",
+              "date": "2026-11-29",
+              "address": "Tư gia Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang"
+            },
+            "ceremonyGroom": {
+              "enabled": true,
+              "title": "THÔNG TIN LỄ THÀNH HÔN",
+              "ceremonyType": "thanh-hon",
+              "time": "11:00",
+              "date": "2026-11-29",
+              "address": "Số nhà 10, Đường số 4, thôn Đằng Xã, xã Hoằng Hóa, tỉnh Thanh Hóa"
+            },
+            "ceremonyBride": {
+              "enabled": true,
+              "title": "THÔNG TIN LỄ VU QUY",
+              "ceremonyType": "vu-quy",
+              "time": "09:00",
+              "date": "2026-11-22",
+              "address": "Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang"
+            },
+            "partyGroom": {
+              "enabled": true,
+              "partyType": "reception",
+              "title": "THÔNG TIN TIỆC VỀ CHUNG NHÀ",
+              "date": "2026-11-29",
+              "time": "16:00",
+              "timeFormat": "24h",
+              "showWelcomeDiningTimes": true,
+              "welcomeTime": "16:00",
+              "diningTime": "16:30",
+              "showCountdown": true,
+              "venueHeader": "TIỆC SẼ TỔ CHỨC TẠI NHÀ ÔNG BÀ PHÙNG VĂN VƯỢNG",
+              "venueName": "Tư Gia Nhà Trai - Gia Đình Ông Bà Phùng Văn Vượng",
+              "venueAddress": "Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa",
+              "mapEmbedUrl": "https://maps.google.com/maps?q=19.85950,105.85420&hl=vi&z=15&output=embed",
+              "mapCoordinates": {
+                "lat": 19.8595,
+                "lng": 105.8542
+              },
+              "showMap": true
+            },
+            "partyBride": {
+              "enabled": true,
+              "partyType": "reception",
+              "title": "THÔNG TIN TIỆC VỀ CHUNG NHÀ",
+              "date": "2026-11-22",
+              "time": "10:00",
+              "timeFormat": "24h",
+              "showWelcomeDiningTimes": true,
+              "welcomeTime": "10:00",
+              "diningTime": "10:30",
+              "showCountdown": true,
+              "venueHeader": "TIỆC SẼ TỔ CHỨC TẠI NHÀ ÔNG BÀ HOÀNG HIẾU LUÂN",
+              "venueName": "Tư Gia Nhà Gái - Gia Đình Ông Bà Hoàng Hiếu Luân",
+              "venueAddress": "Số nhà 21 Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+              "mapEmbedUrl": "https://maps.google.com/maps?q=22.10026,105.0259&hl=vi&z=15&output=embed",
+              "mapCoordinates": {
+                "lat": 22.10026,
+                "lng": 105.0259
+              },
+              "showMap": true
+            },
+            "shareGroom": {
+              "coverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+              "coverPosition": {
+                "x": 48.3,
+                "y": 67.3,
+                "zoom": 212,
+                "fit": "contain",
+                "flipX": false,
+                "flipY": false,
+                "rotate": 0
+              },
+              "title": "Thiệp Mời Tiệc Báo Hỷ - Quang Hưng & Minh Tuệ",
+              "description": "Kính mời quý khách tới dự tiệc báo hỷ của Quang Hưng & Minh Tuệ vào lúc 16:00 ngày 29/11/2026 tại Số nhà 10, Đường số 4, thôn Đằng Xá, xã Hoằng Hóa, tỉnh Thanh Hóa",
+              "dateText": "29/11/2026"
+            },
+            "shareBride": {
+              "coverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+              "coverPosition": {
+                "x": 49.7,
+                "y": 68.3,
+                "zoom": 210,
+                "fit": "contain",
+                "flipX": false,
+                "flipY": false,
+                "rotate": 0
+              },
+              "title": "Thiệp Mời Tiệc Báo Hỷ - Minh Tuệ & Quang Hưng",
+              "description": "Kính mời quý khách tới dự tiệc báo hỷ của Minh Tuệ & Quang Hưng vào lúc 10:00 ngày 22/11/2026 tại Số nhà 21 Thôn 1 Làng Bát, xã Hàm Yên, tỉnh Tuyên Quang",
+              "dateText": "22/11/2026"
+            },
+            "shareCoverPhotoUrl": "/api/media/media_48034d471b1e1c49.jpg",
+            "shareTitle": "Quang Hưng & Minh Tuệ",
+            "shareDescription": "Thân mời quý khách đến dự tiệc báo hỷ của Quang Hưng & Minh Tuệ",
+            "shareDateText": "29/11/2026",
+            "groomAvatarPosition": {
+              "x": 48.9,
+              "y": 47.1,
+              "zoom": 106,
+              "fit": "contain",
+              "flipX": false,
+              "flipY": false,
+              "rotate": -1
+            },
+            "brideAvatarPosition": {
+              "x": 50,
+              "y": 46.8,
+              "zoom": 106,
+              "fit": "contain",
+              "flipX": false,
+              "flipY": false,
+              "rotate": 12
+            },
+            "groomAvatarPositionGroom": {
+              "x": 48.9,
+              "y": 47.1,
+              "zoom": 106,
+              "fit": "contain",
+              "flipX": false,
+              "flipY": false,
+              "rotate": -1
+            },
+            "brideAvatarPositionGroom": {
+              "x": 50,
+              "y": 46.8,
+              "zoom": 106,
+              "fit": "contain",
+              "flipX": false,
+              "flipY": false,
+              "rotate": 12
+            },
+            "groomAvatarPositionBride": {
+              "x": 48.9,
+              "y": 47.1,
+              "zoom": 106,
+              "fit": "contain",
+              "flipX": false,
+              "flipY": false,
+              "rotate": -1
+            },
+            "brideAvatarPositionBride": {
+              "x": 50,
+              "y": 46.8,
+              "zoom": 106,
+              "fit": "contain",
+              "flipX": false,
+              "flipY": false,
+              "rotate": 12
+            },
+            "heroPhotoPosition": {
+              "x": 50,
+              "y": 50,
+              "zoom": 100,
+              "fit": "contain",
+              "flipX": false,
+              "flipY": false,
+              "rotate": 0
+            },
+            "shareCoverPosition": {
+              "x": 48.3,
+              "y": 67.3,
+              "zoom": 212,
+              "fit": "contain",
+              "flipX": false,
+              "flipY": false,
+              "rotate": 0
+            },
+            "showThankYou": true,
+            "thankYouText": "Sự hiện diện của quý khách là niềm vinh hạnh của gia đình chúng tôi!",
+            "selectedMusicId": "acoustic-romance",
+            "autoScroll": true,
+            "autoPlayMusic": true,
+            "fallingPetals": true,
+            "autoPlay3dGallery": true,
+            "isPublished": true,
+            "publishedVersion": 52,
+            "coverBackgroundUrl": "/assets/aistudio/3eaf34e8-d174-4211-be3d-ee3713470129_b690ceac.jpg",
+            "cardOpeningStyle": "curtain-split",
+            "updatedAtMs": 1793373660796,
+            "lastSavedAt": "22:21:00 30/10/2026",
+            "publishedAt": "22:21:00 30/10/2026",
+            "ownerUsername": "admin@123",
+            "customSlugGroom": "quanghung-minhtue",
+            "customSlugBride": "minhtue-quanghung"
+          }
+        }
+      ],
+      "activeProjectId": "card_default",
+      "updatedAt": "22:21:00 30/10/2026",
+      "updatedAtMs": 1793373660796
+    }
+  },
+  "users": [
+    {
+      "id": "user_admin_01",
+      "username": "admin@123",
+      "fullName": "(Admin)",
+      "email": "admin@123",
+      "phone": "0978468986",
+      "organization": "Quản Trị Hệ Thống",
+      "role": "admin",
+      "password": "123456",
+      "avatarUrl": "/api/media/media_e9ea395c35b226af.jpg",
+      "status": "active",
+      "expiryDate": "Vĩnh viễn",
+      "deviceLimit": 10,
+      "connectedDevices": 1,
+      "lastLoginTime": "13:41:36 30/10/2026",
+      "todaySeconds": 10980,
+      "todayLogins": 3,
+      "notes": "Tài khoản Quản trị viên cấp cao duy nhất",
+      "createdAt": "2026-01-01",
+      "updatedAtMs": 1793351407441
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Be Vietnam Pro', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Serif font stack optimized for Vietnamese typography (Lora + Playfair Display) */
+.font-serif, [class*="font-serif"] {
+  font-family: 'Lora', 'Playfair Display', Georgia, serif;
+  font-feature-settings: "kern" 1, "liga" 1;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+}
+
+.font-luxury {
+  font-family: 'Lora', 'Playfair Display', Georgia, serif;
+}
+
+.font-display {
+  font-family: 'Playfair Display', 'Lora', Georgia, serif;
+}
+
+.font-body {
+  font-family: 'Be Vietnam Pro', 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+.font-script {
+  font-family: 'Dancing Script', cursive;
+}
+
+.font-modern {
+  font-family: 'Be Vietnam Pro', 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* Completely hide scrollbar on top header to prevent any scrollbar appearing at the top */
+header, header *, .no-scrollbar, .no-scrollbar * {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+header::-webkit-scrollbar, header *::-webkit-scrollbar, .no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* Custom scrollbar styling for bottom containers only */
+.custom-bottom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #CBD5E1 #F1F5F9;
+}
+
+.custom-bottom-scrollbar::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+.custom-bottom-scrollbar::-webkit-scrollbar-track {
+  background: #F1F5F9;
+  border-radius: 9999px;
+}
+
+.custom-bottom-scrollbar::-webkit-scrollbar-thumb {
+  background: #94A3B8;
+  border-radius: 9999px;
+}
+
+.custom-bottom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #64748B;
+}
